@@ -1,0 +1,748 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>谈吐素养 · 经典训练系统</title>
+  <style>
+    :root {
+      --primary: #1a365d;
+      --primary-light: #2b6cb0;
+      --accent: #c53030;
+      --bg: #f7fafc;
+      --card: #ffffff;
+      --text: #1a202c;
+      --text-secondary: #4a5568;
+      --border: #e2e8f0;
+      --success: #276749;
+      --radius: 12px;
+      --shadow: 0 4px 20px rgba(0,0,0,0.06);
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      min-height: 100vh;
+    }
+    header {
+      background: linear-gradient(135deg, var(--primary), var(--primary-light));
+      color: white;
+      padding: 1.2rem 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.15);
+    }
+    header h1 { font-size: 1.4rem; font-weight: 600; }
+    header h1 span { font-weight: 300; opacity: 0.85; font-size: 0.95rem; margin-left: 0.6rem; }
+    nav { display: flex; gap: 0.5rem; flex-wrap: wrap; }
+    nav button {
+      background: rgba(255,255,255,0.12);
+      border: 1px solid rgba(255,255,255,0.25);
+      color: white;
+      padding: 0.45rem 1.1rem;
+      border-radius: 999px;
+      cursor: pointer;
+      font-size: 0.9rem;
+      transition: all 0.2s;
+    }
+    nav button:hover, nav button.active { background: white; color: var(--primary); }
+    main { max-width: 1200px; margin: 0 auto; padding: 2rem 1.5rem 4rem; }
+    .section { display: none; }
+    .section.active { display: block; animation: fadeIn 0.3s ease; }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(8px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    h2 { font-size: 1.5rem; margin-bottom: 0.4rem; color: var(--primary); }
+    .subtitle { color: var(--text-secondary); margin-bottom: 1.8rem; font-size: 0.95rem; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 1.2rem; }
+    .card {
+      background: var(--card);
+      border-radius: var(--radius);
+      padding: 1.4rem;
+      box-shadow: var(--shadow);
+      border: 1px solid var(--border);
+      transition: transform 0.2s, box-shadow 0.2s;
+      cursor: pointer;
+    }
+    .card:hover { transform: translateY(-3px); box-shadow: 0 8px 28px rgba(0,0,0,0.1); }
+    .card .tag {
+      display: inline-block;
+      font-size: 0.75rem;
+      padding: 0.2rem 0.6rem;
+      border-radius: 999px;
+      background: #ebf4ff;
+      color: var(--primary-light);
+      margin-right: 0.4rem;
+      margin-bottom: 0.5rem;
+    }
+    .card .tag.diff-初级 { background: #c6f6d5; color: var(--success); }
+    .card .tag.diff-中级 { background: #fefcbf; color: #975a16; }
+    .card .tag.diff-高级 { background: #fed7d7; color: var(--accent); }
+    .card h3 { font-size: 1.05rem; margin-bottom: 0.5rem; line-height: 1.4; }
+    .card .meta { font-size: 0.85rem; color: var(--text-secondary); margin-top: 0.8rem; }
+    .modal-overlay {
+      position: fixed; inset: 0;
+      background: rgba(0,0,0,0.45);
+      display: none;
+      align-items: center;
+      justify-content: center;
+      z-index: 200;
+      padding: 1rem;
+    }
+    .modal-overlay.show { display: flex; }
+    .modal {
+      background: white;
+      border-radius: 16px;
+      max-width: 560px;
+      width: 100%;
+      max-height: 85vh;
+      overflow-y: auto;
+      padding: 2rem;
+      position: relative;
+      animation: slideUp 0.25s ease;
+    }
+    @keyframes slideUp {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    .modal .close {
+      position: absolute; top: 1rem; right: 1.2rem;
+      background: none; border: none;
+      font-size: 1.5rem; cursor: pointer; color: var(--text-secondary);
+    }
+    .modal .field { margin-bottom: 1rem; }
+    .modal .field label { display: block; font-size: 0.8rem; color: var(--text-secondary); margin-bottom: 0.25rem; }
+    .modal .field p { font-size: 0.95rem; }
+    .modal .original {
+      font-size: 1.15rem; font-weight: 500; color: var(--primary);
+      line-height: 1.5; background: #f0f5ff;
+      padding: 0.9rem 1rem; border-radius: 8px; margin-bottom: 1rem;
+    }
+    .filters { display: flex; flex-wrap: wrap; gap: 0.6rem; margin-bottom: 1.5rem; }
+    .filters select, .filters input {
+      padding: 0.5rem 0.9rem;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      font-size: 0.9rem;
+      background: white;
+    }
+    .filters input { min-width: 180px; }
+    .practice-card {
+      background: var(--card);
+      border-radius: var(--radius);
+      padding: 1.8rem;
+      box-shadow: var(--shadow);
+      border: 1px solid var(--border);
+      margin-bottom: 1.5rem;
+    }
+    .practice-card h3 { font-size: 1.2rem; margin-bottom: 0.6rem; }
+    .practice-card .context {
+      background: #f7fafc;
+      padding: 1rem;
+      border-radius: 8px;
+      margin: 1rem 0;
+      font-size: 0.95rem;
+      border-left: 4px solid var(--primary-light);
+    }
+    .materials-list { margin: 1rem 0; }
+    .materials-list li { margin-bottom: 0.4rem; font-size: 0.9rem; }
+    .materials-list code {
+      background: #edf2f7;
+      padding: 0.15rem 0.4rem;
+      border-radius: 4px;
+      font-size: 0.8rem;
+    }
+    textarea {
+      width: 100%;
+      min-height: 140px;
+      padding: 1rem;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      font-size: 0.95rem;
+      resize: vertical;
+      font-family: inherit;
+      margin-top: 0.8rem;
+    }
+    textarea:focus {
+      outline: none;
+      border-color: var(--primary-light);
+      box-shadow: 0 0 0 3px rgba(43,108,176,0.15);
+    }
+    .btn {
+      display: inline-block;
+      padding: 0.65rem 1.5rem;
+      border-radius: 8px;
+      border: none;
+      font-size: 0.95rem;
+      cursor: pointer;
+      transition: all 0.2s;
+      font-weight: 500;
+    }
+    .btn-primary { background: var(--primary); color: white; }
+    .btn-primary:hover { background: var(--primary-light); }
+    .btn-outline { background: white; border: 1px solid var(--border); color: var(--text); }
+    .btn-outline:hover { border-color: var(--primary-light); color: var(--primary-light); }
+    .btn-group { display: flex; gap: 0.8rem; margin-top: 1rem; flex-wrap: wrap; }
+    .feedback-panel {
+      display: none;
+      margin-top: 1.5rem;
+      padding: 1.5rem;
+      background: #f0fff4;
+      border-radius: var(--radius);
+      border: 1px solid #9ae6b4;
+    }
+    .feedback-panel.show { display: block; animation: fadeIn 0.3s; }
+    .score-big { font-size: 2.5rem; font-weight: 700; color: var(--success); margin-bottom: 0.3rem; }
+    .radar-placeholder { display: flex; gap: 1rem; flex-wrap: wrap; margin: 1rem 0; }
+    .dim-score {
+      background: white;
+      padding: 0.6rem 1rem;
+      border-radius: 8px;
+      font-size: 0.85rem;
+      border: 1px solid var(--border);
+    }
+    .dim-score strong { color: var(--primary); }
+    .feedback-list { margin-top: 1rem; }
+    .feedback-list h4 { font-size: 0.9rem; margin-bottom: 0.4rem; color: var(--text-secondary); }
+    .feedback-list ul { padding-left: 1.2rem; font-size: 0.9rem; }
+    .stats-row {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+      gap: 1rem;
+      margin-bottom: 2rem;
+    }
+    .stat-card {
+      background: var(--card);
+      border-radius: var(--radius);
+      padding: 1.3rem;
+      text-align: center;
+      box-shadow: var(--shadow);
+      border: 1px solid var(--border);
+    }
+    .stat-card .num { font-size: 1.8rem; font-weight: 700; color: var(--primary); }
+    .stat-card .label { font-size: 0.85rem; color: var(--text-secondary); margin-top: 0.2rem; }
+    .empty { text-align: center; padding: 3rem; color: var(--text-secondary); }
+    .loading {
+      text-align: center;
+      padding: 4rem 1rem;
+      color: var(--text-secondary);
+      font-size: 1.05rem;
+    }
+    .loading .spinner {
+      width: 36px; height: 36px;
+      border: 3px solid var(--border);
+      border-top-color: var(--primary-light);
+      border-radius: 50%;
+      margin: 0 auto 1rem;
+      animation: spin 0.8s linear infinite;
+    }
+    @keyframes spin { to { transform: rotate(360deg); } }
+    .pagination {
+      display: flex;
+      justify-content: center;
+      gap: 0.5rem;
+      margin-top: 1.5rem;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+    .pagination button {
+      padding: 0.4rem 0.85rem;
+      border: 1px solid var(--border);
+      background: white;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 0.9rem;
+    }
+    .pagination button.active {
+      background: var(--primary);
+      color: white;
+      border-color: var(--primary);
+    }
+    .pagination button:disabled { opacity: 0.4; cursor: not-allowed; }
+    @media (max-width: 640px) {
+      header { flex-direction: column; gap: 0.8rem; padding: 1rem; }
+      nav { width: 100%; justify-content: center; }
+      main { padding: 1.2rem 1rem 3rem; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>谈吐素养 <span>经典训练系统</span></h1>
+    <nav>
+      <button class="nav-btn active" data-section="dashboard">总览</button>
+      <button class="nav-btn" data-section="materials">素材库</button>
+      <button class="nav-btn" data-section="practice">开始练习</button>
+      <button class="nav-btn" data-section="history">练习记录</button>
+    </nav>
+  </header>
+
+  <main>
+    <div id="loading" class="loading">
+      <div class="spinner"></div>
+      正在加载完整素材库与练习题…
+    </div>
+
+    <div id="app" style="display:none;">
+      <section id="dashboard" class="section active">
+        <h2>训练总览</h2>
+        <p class="subtitle">以经典为根基，系统提升谈吐素养与口才</p>
+        <div class="stats-row">
+          <div class="stat-card"><div class="num" id="stat-materials">—</div><div class="label">经典素材</div></div>
+          <div class="stat-card"><div class="num" id="stat-exercises">—</div><div class="label">练习题</div></div>
+          <div class="stat-card"><div class="num">6</div><div class="label">能力维度</div></div>
+          <div class="stat-card"><div class="num" id="stat-done">0</div><div class="label">已完成练习</div></div>
+        </div>
+        <h3 style="margin-bottom:1rem;font-size:1.15rem;">能力维度</h3>
+        <div class="radar-placeholder">
+          <div class="dim-score">素材调用</div>
+          <div class="dim-score">结构完整</div>
+          <div class="dim-score">语境适配</div>
+          <div class="dim-score">修辞表现</div>
+          <div class="dim-score">思维深度</div>
+          <div class="dim-score">表达流畅</div>
+        </div>
+        <div style="margin-top:2rem;">
+          <h3 style="margin-bottom:0.8rem;font-size:1.15rem;">推荐练习</h3>
+          <div class="grid" id="recommend-grid"></div>
+        </div>
+      </section>
+
+      <section id="materials" class="section">
+        <h2>经典素材库</h2>
+        <p class="subtitle" id="materials-subtitle">加载中…</p>
+        <div class="filters">
+          <select id="filter-category"><option value="">全部类别</option></select>
+          <select id="filter-scene">
+            <option value="">全部场景</option>
+            <option value="职场谈吐">职场谈吐</option>
+            <option value="演讲开场">演讲开场</option>
+            <option value="演讲结尾">演讲结尾</option>
+            <option value="辩论反驳">辩论反驳</option>
+            <option value="激励鼓舞">激励鼓舞</option>
+            <option value="劝慰安慰">劝慰安慰</option>
+            <option value="社交闲谈">社交闲谈</option>
+            <option value="自我介绍">自我介绍</option>
+          </select>
+          <select id="filter-diff">
+            <option value="">全部难度</option>
+            <option value="初级">初级</option>
+            <option value="中级">中级</option>
+            <option value="高级">高级</option>
+          </select>
+          <input type="text" id="filter-search" placeholder="搜索原文或出处..." />
+        </div>
+        <div class="grid" id="materials-grid"></div>
+        <div class="pagination" id="materials-pagination"></div>
+      </section>
+
+      <section id="practice" class="section">
+        <h2>开始练习</h2>
+        <p class="subtitle">选择一道题，按要求完成表达，获取即时反馈</p>
+        <div class="filters">
+          <select id="ex-filter-type"><option value="">全部类型</option></select>
+          <select id="ex-filter-diff">
+            <option value="">全部难度</option>
+            <option value="初级">初级</option>
+            <option value="中级">中级</option>
+            <option value="高级">高级</option>
+          </select>
+        </div>
+        <div class="grid" id="exercises-grid"></div>
+        <div id="active-practice" style="display:none;">
+          <div class="practice-card" id="practice-detail"></div>
+          <div class="feedback-panel" id="feedback-panel"></div>
+        </div>
+      </section>
+
+      <section id="history" class="section">
+        <h2>练习记录</h2>
+        <p class="subtitle">本地保存最近练习（刷新后仍保留）</p>
+        <div id="history-list" class="empty">暂无练习记录，去完成第一道题吧。</div>
+      </section>
+    </div>
+  </main>
+
+  <div class="modal-overlay" id="modal">
+    <div class="modal">
+      <button class="close" onclick="closeModal()">&times;</button>
+      <div id="modal-body"></div>
+    </div>
+  </div>
+
+  <script>
+    const safeStorage = (() => {
+      let memoryStore = {};
+      let available = false;
+      try {
+        const key = "__tantu_test__";
+        window.localStorage.setItem(key, "1");
+        window.localStorage.removeItem(key);
+        available = true;
+      } catch (e) { available = false; }
+      return {
+        get(key) {
+          if (available) {
+            try { return window.localStorage.getItem(key); } catch (e) { return memoryStore[key] || null; }
+          }
+          return memoryStore[key] || null;
+        },
+        set(key, value) {
+          if (available) {
+            try { window.localStorage.setItem(key, value); return; } catch (e) {}
+          }
+          memoryStore[key] = value;
+        }
+      };
+    })();
+
+    let MATERIALS = [];
+    let EXERCISES = [];
+    let currentExercise = null;
+    let history = [];
+    let materialsPage = 1;
+    const PAGE_SIZE = 24;
+
+    try {
+      history = JSON.parse(safeStorage.get("tantu_history") || "[]");
+    } catch (e) { history = []; }
+
+    async function loadData() {
+      try {
+        const [matRes, exRes] = await Promise.all([
+          fetch("./data/phase1_materials.json"),
+          fetch("./data/exercises_batch1.json")
+        ]);
+        if (!matRes.ok || !exRes.ok) throw new Error("数据文件加载失败，请确认 data 目录已上传");
+        const matData = await matRes.json();
+        const exData = await exRes.json();
+        MATERIALS = matData.materials || [];
+        EXERCISES = exData.exercises || [];
+        initApp();
+      } catch (err) {
+        console.error(err);
+        document.getElementById("loading").innerHTML = `
+          <p style="color:#c53030;margin-bottom:1rem;">数据加载失败</p>
+          <p style="font-size:0.9rem;">请确认仓库中存在以下文件：</p>
+          <p style="font-size:0.85rem;margin-top:0.5rem;"><code>data/phase1_materials.json</code><br><code>data/exercises_batch1.json</code></p>
+          <p style="font-size:0.85rem;margin-top:0.8rem;color:#4a5568;">${err.message}</p>
+        `;
+      }
+    }
+
+    function initApp() {
+      document.getElementById("loading").style.display = "none";
+      document.getElementById("app").style.display = "block";
+      document.getElementById("stat-materials").textContent = MATERIALS.length;
+      document.getElementById("stat-exercises").textContent = EXERCISES.length;
+      document.getElementById("stat-done").textContent = history.length;
+      document.getElementById("materials-subtitle").textContent =
+        "共 " + MATERIALS.length + " 条精选素材，支持按类别、场景、难度筛选与搜索";
+
+      const cats = [...new Set(MATERIALS.map(m => m.category))];
+      const catSelect = document.getElementById("filter-category");
+      cats.forEach(c => {
+        const opt = document.createElement("option");
+        opt.value = c;
+        opt.textContent = c;
+        catSelect.appendChild(opt);
+      });
+
+      const types = [...new Set(EXERCISES.map(e => e.type))];
+      const typeSelect = document.getElementById("ex-filter-type");
+      types.forEach(t => {
+        const opt = document.createElement("option");
+        opt.value = t;
+        opt.textContent = t;
+        typeSelect.appendChild(opt);
+      });
+
+      renderMaterials();
+      renderExercises();
+      renderRecommend();
+    }
+
+    document.querySelectorAll(".nav-btn").forEach(btn => {
+      btn.addEventListener("click", () => {
+        document.querySelectorAll(".nav-btn").forEach(b => b.classList.remove("active"));
+        document.querySelectorAll(".section").forEach(s => s.classList.remove("active"));
+        btn.classList.add("active");
+        document.getElementById(btn.dataset.section).classList.add("active");
+        if (btn.dataset.section === "history") renderHistory();
+        if (btn.dataset.section === "practice") {
+          document.getElementById("active-practice").style.display = "none";
+          document.getElementById("exercises-grid").style.display = "grid";
+        }
+      });
+    });
+
+    function getFilteredMaterials() {
+      const cat = document.getElementById("filter-category").value;
+      const scene = document.getElementById("filter-scene").value;
+      const diff = document.getElementById("filter-diff").value;
+      const q = document.getElementById("filter-search").value.trim().toLowerCase();
+      return MATERIALS.filter(m => {
+        if (cat && m.category !== cat) return false;
+        if (scene && !(m.scenes || []).includes(scene)) return false;
+        if (diff && m.difficulty !== diff) return false;
+        if (q && !m.original.toLowerCase().includes(q) && !(m.source || "").toLowerCase().includes(q)) return false;
+        return true;
+      });
+    }
+
+    function renderMaterials() {
+      const filtered = getFilteredMaterials();
+      const totalPages = Math.max(1, Math.ceil(filtered.length / PAGE_SIZE));
+      if (materialsPage > totalPages) materialsPage = 1;
+      const start = (materialsPage - 1) * PAGE_SIZE;
+      const pageItems = filtered.slice(start, start + PAGE_SIZE);
+      const grid = document.getElementById("materials-grid");
+      if (!pageItems.length) {
+        grid.innerHTML = '<div class="empty">没有符合条件的素材</div>';
+      } else {
+        grid.innerHTML = pageItems.map(m => `
+          <div class="card" onclick="showMaterial('${m.id}')">
+            <span class="tag">${m.category}</span>
+            <span class="tag diff-${m.difficulty}">${m.difficulty}</span>
+            <h3>${m.original.length > 42 ? m.original.slice(0, 42) + "…" : m.original}</h3>
+            <div class="meta">${m.source || ""}</div>
+          </div>
+        `).join("");
+      }
+      const pag = document.getElementById("materials-pagination");
+      if (totalPages <= 1) {
+        pag.innerHTML = '<span style="font-size:0.85rem;color:#4a5568;">共 ' + filtered.length + ' 条</span>';
+      } else {
+        let html = '<button ' + (materialsPage <= 1 ? 'disabled' : '') + ' onclick="changePage(' + (materialsPage - 1) + ')">上一页</button>';
+        for (let i = 1; i <= totalPages; i++) {
+          if (i === 1 || i === totalPages || (i >= materialsPage - 2 && i <= materialsPage + 2)) {
+            html += '<button class="' + (i === materialsPage ? 'active' : '') + '" onclick="changePage(' + i + ')">' + i + '</button>';
+          } else if (i === materialsPage - 3 || i === materialsPage + 3) {
+            html += '<span style="padding:0.4rem;">…</span>';
+          }
+        }
+        html += '<button ' + (materialsPage >= totalPages ? 'disabled' : '') + ' onclick="changePage(' + (materialsPage + 1) + ')">下一页</button>';
+        html += '<span style="font-size:0.85rem;color:#4a5568;margin-left:0.5rem;">共 ' + filtered.length + ' 条</span>';
+        pag.innerHTML = html;
+      }
+    }
+
+    function changePage(p) {
+      materialsPage = p;
+      renderMaterials();
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    }
+
+    function showMaterial(id) {
+      const m = MATERIALS.find(x => x.id === id);
+      if (!m) return;
+      document.getElementById("modal-body").innerHTML = `
+        <div class="original">${m.original}</div>
+        <div class="field"><label>出处</label><p>${m.source || "—"}</p></div>
+        <div class="field"><label>核心意义</label><p>${m.meaning || "—"}</p></div>
+        <div class="field"><label>谈吐用法</label><p>${m.usage_example || "—"}</p></div>
+        <div class="field"><label>难度</label><p>${m.difficulty || "—"}</p></div>
+        <div class="field"><label>适用场景</label><p>${(m.scenes || []).join("、") || "通用"}</p></div>
+        <div class="field"><label>主题</label><p>${(m.themes || []).join("、") || "—"}</p></div>
+        <div class="field"><label>能力标签</label><p>${(m.ability_tags || []).join("、") || "—"}</p></div>
+      `;
+      document.getElementById("modal").classList.add("show");
+    }
+
+    function closeModal() {
+      document.getElementById("modal").classList.remove("show");
+    }
+    document.getElementById("modal").addEventListener("click", e => {
+      if (e.target === document.getElementById("modal")) closeModal();
+    });
+
+    ["filter-category", "filter-scene", "filter-diff", "filter-search"].forEach(id => {
+      document.getElementById(id).addEventListener("input", () => {
+        materialsPage = 1;
+        renderMaterials();
+      });
+    });
+
+    function renderExercises() {
+      const type = document.getElementById("ex-filter-type").value;
+      const diff = document.getElementById("ex-filter-diff").value;
+      const filtered = EXERCISES.filter(ex => {
+        if (type && ex.type !== type) return false;
+        if (diff && ex.difficulty !== diff) return false;
+        return true;
+      });
+      const grid = document.getElementById("exercises-grid");
+      if (!filtered.length) {
+        grid.innerHTML = '<div class="empty">没有符合条件的练习</div>';
+        return;
+      }
+      grid.innerHTML = filtered.map(ex => `
+        <div class="card" onclick="startPractice('${ex.id}')">
+          <span class="tag">${ex.type}</span>
+          <span class="tag diff-${ex.difficulty}">${ex.difficulty}</span>
+          <h3>${ex.title}</h3>
+          <div class="meta">场景：${ex.scene || "—"} · ${ex.time_limit || ""}</div>
+        </div>
+      `).join("");
+    }
+
+    ["ex-filter-type", "ex-filter-diff"].forEach(id => {
+      document.getElementById(id).addEventListener("change", renderExercises);
+    });
+
+    function startPractice(id) {
+      currentExercise = EXERCISES.find(x => x.id === id);
+      if (!currentExercise) return;
+      document.getElementById("exercises-grid").style.display = "none";
+      document.getElementById("active-practice").style.display = "block";
+      document.getElementById("feedback-panel").classList.remove("show");
+      const ex = currentExercise;
+      const mats = (ex.materials || []).map(m => {
+        const full = MATERIALS.find(x => x.id === m.id);
+        return full ? full : m;
+      });
+      let html = `
+        <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:0.5rem;">
+          <div>
+            <span class="tag">${ex.type}</span>
+            <span class="tag diff-${ex.difficulty}">${ex.difficulty}</span>
+          </div>
+          <button class="btn btn-outline" onclick="backToList()" style="padding:0.3rem 0.8rem;font-size:0.85rem;">返回列表</button>
+        </div>
+        <h3>${ex.title}</h3>
+        <div class="context">${ex.context || ex.opponent_view || ex.setting || ""}</div>
+        ${ex.role ? '<p style="font-size:0.9rem;"><strong>你的角色：</strong>' + ex.role + '</p>' : ""}
+        ${ex.goal ? '<p style="font-size:0.9rem;"><strong>沟通目标：</strong>' + ex.goal + '</p>' : ""}
+        <div class="materials-list">
+          <strong>指定素材：</strong>
+          <ul>
+            ${mats.map(m => '<li><code>' + (m.id || "") + '</code> ' + (m.original || "") + (m.source ? '（' + m.source + '）' : '') + '</li>').join("")}
+          </ul>
+        </div>
+        <p style="font-size:0.9rem;color:#4a5568;"><strong>要求：</strong>${ex.requirement || ""}</p>
+        <p style="font-size:0.85rem;color:#4a5568;margin-top:0.4rem;"><strong>时间：</strong>${ex.time_limit || "不限"}</p>
+        <textarea id="user-answer" placeholder="在这里输入你的表达内容..."></textarea>
+        <div class="btn-group">
+          <button class="btn btn-primary" onclick="submitAnswer()">提交并获取反馈</button>
+          <button class="btn btn-outline" onclick="document.getElementById('user-answer').value=''">清空</button>
+        </div>
+      `;
+      document.getElementById("practice-detail").innerHTML = html;
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    }
+
+    function backToList() {
+      document.getElementById("active-practice").style.display = "none";
+      document.getElementById("exercises-grid").style.display = "grid";
+      currentExercise = null;
+    }
+
+    function submitAnswer() {
+      const text = document.getElementById("user-answer").value.trim();
+      if (!text) { alert("请先输入你的表达内容"); return; }
+      const ex = currentExercise;
+      const mats = ex.materials || [];
+      let hitCount = 0;
+      const hits = [];
+      mats.forEach(m => {
+        const key = (m.original || "").slice(0, 6);
+        if (key && (text.includes(key) || text.includes((m.original || "").slice(0, 4)))) {
+          hitCount++;
+          hits.push(m.original);
+        }
+      });
+      const materialScore = Math.min(100, 35 + hitCount * 32);
+      const lengthScore = text.length > 40 ? (text.length < 800 ? 85 : 70) : 45;
+      const structureScore = /因此|所以|总之|综上所述|我认为|首先|其次|最后|然而|但是/.test(text) ? 82 : 58;
+      const overall = Math.round(materialScore * 0.35 + lengthScore * 0.3 + structureScore * 0.35);
+      const highlights = [];
+      const improvements = [];
+      if (hitCount >= 2) highlights.push("成功使用了 " + hitCount + " 条指定素材");
+      else if (hitCount === 1) highlights.push("使用了素材「" + hits[0] + "」");
+      else improvements.push("未检测到指定素材的使用，建议自然嵌入至少 1～2 条经典表述");
+      if (text.length > 80) highlights.push("表达内容较为充实");
+      else improvements.push("内容偏短，可尝试展开论证或增加具体例子");
+      if (structureScore >= 80) highlights.push("出现了较清晰的逻辑连接词，结构意识良好");
+      else improvements.push("可增加「首先 / 其次 / 总之」等结构词，让层次更清晰");
+      if (overall >= 75) improvements.push("整体不错，可进一步打磨素材与上下文的过渡，让引用更自然");
+      else improvements.push("建议先明确中心观点，再围绕观点选择最贴切的素材");
+
+      const panel = document.getElementById("feedback-panel");
+      panel.innerHTML = `
+        <div class="score-big">${overall}</div>
+        <div style="font-size:0.9rem;color:#4a5568;margin-bottom:0.8rem;">综合得分（自动评分）</div>
+        <div class="radar-placeholder">
+          <div class="dim-score">素材调用 <strong>${materialScore}</strong></div>
+          <div class="dim-score">结构完整 <strong>${structureScore}</strong></div>
+          <div class="dim-score">表达充实 <strong>${lengthScore}</strong></div>
+        </div>
+        <div class="feedback-list">
+          <h4>亮点</h4>
+          <ul>${highlights.map(h => "<li>" + h + "</li>").join("") || "<li>继续加油</li>"}</ul>
+          <h4 style="margin-top:0.8rem;">可提升</h4>
+          <ul>${improvements.map(i => "<li>" + i + "</li>").join("")}</ul>
+        </div>
+        <div class="btn-group">
+          <button class="btn btn-primary" onclick="saveHistory(${overall})">保存记录</button>
+          <button class="btn btn-outline" onclick="backToList()">返回题目列表</button>
+        </div>
+      `;
+      panel.classList.add("show");
+      document.getElementById("stat-done").textContent = history.length + 1;
+    }
+
+    function saveHistory(score) {
+      history.unshift({
+        id: currentExercise.id,
+        title: currentExercise.title,
+        type: currentExercise.type,
+        score,
+        time: new Date().toLocaleString("zh-CN")
+      });
+      if (history.length > 50) history = history.slice(0, 50);
+      safeStorage.set("tantu_history", JSON.stringify(history));
+      document.getElementById("stat-done").textContent = history.length;
+      alert("已保存到练习记录");
+    }
+
+    function renderHistory() {
+      const el = document.getElementById("history-list");
+      if (!history.length) {
+        el.className = "empty";
+        el.innerHTML = "暂无练习记录，去完成第一道题吧。";
+        return;
+      }
+      el.className = "";
+      el.innerHTML = history.map(h => `
+        <div class="card" style="cursor:default;margin-bottom:0.8rem;">
+          <span class="tag">${h.type}</span>
+          <h3 style="font-size:1rem;">${h.title}</h3>
+          <div class="meta">得分：<strong style="color:#1a365d">${h.score}</strong> · ${h.time}</div>
+        </div>
+      `).join("");
+    }
+
+    function renderRecommend() {
+      const grid = document.getElementById("recommend-grid");
+      const recs = EXERCISES.slice(0, 3);
+      grid.innerHTML = recs.map(ex => `
+        <div class="card" onclick="document.querySelector('[data-section=practice]').click(); setTimeout(function(){startPractice('${ex.id}')},120)">
+          <span class="tag">${ex.type}</span>
+          <span class="tag diff-${ex.difficulty}">${ex.difficulty}</span>
+          <h3>${ex.title}</h3>
+          <div class="meta">${ex.scene || ""}</div>
+        </div>
+      `).join("");
+    }
+
+    loadData();
+  </script>
+</body>
+</html>

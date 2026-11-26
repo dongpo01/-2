@@ -1,0 +1,5964 @@
+{
+  "meta": {
+    "name": "谈吐素养素材库 · 一阶段",
+    "version": "1.1",
+    "created_at": "2026-11-26T07:39:47.013224",
+    "total_count": 274,
+    "description": "谈吐素养素材库 · 一阶段（增强版）。在原有239条基础上，增加scenes场景标签，并新增职场谈吐、演讲开场/结尾、辩论反驳、自我介绍、劝慰安慰等专项素材。",
+    "categories": {
+      "古诗词金句": 90,
+      "典故与成语": 50,
+      "诸子百家与经典语录": 49,
+      "史传与人物对话": 20,
+      "全球经典名言": 30,
+      "专项补充": 35
+    },
+    "updated_at": "2026-11-26T07:46:54.770520",
+    "scenes_coverage": {
+      "通用": 43,
+      "演讲结尾": 23,
+      "社交闲谈": 22,
+      "演讲开场": 153,
+      "职场谈吐": 153,
+      "激励鼓舞": 86,
+      "辩论反驳": 156,
+      "自我介绍": 22,
+      "劝慰安慰": 9
+    }
+  },
+  "materials": [
+    {
+      "category": "古诗词金句",
+      "subcategory": "诗词",
+      "original": "关关雎鸠，在河之洲。窈窕淑女，君子好逑。",
+      "source": "《诗经·周南·关雎》",
+      "meaning": "美好的追求与匹配，君子求贤配。",
+      "usage_example": "表达对理想对象或卓越人才的向往时可用。",
+      "difficulty": "初级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "爱情",
+        "追求",
+        "君子"
+      ],
+      "id": "P1-0001",
+      "scenes": [
+        "通用"
+      ]
+    },
+    {
+      "category": "古诗词金句",
+      "subcategory": "诗词",
+      "original": "昔我往矣，杨柳依依。今我来思，雨雪霏霏。",
+      "source": "《诗经·小雅·采薇》",
+      "meaning": "时间流逝与情感对比的经典表达。",
+      "usage_example": "描述离别与重逢、岁月变迁的感慨。",
+      "difficulty": "初级",
+      "ability_tags": [
+        "素材储备力",
+        "修辞表现力"
+      ],
+      "themes": [
+        "离别",
+        "时间",
+        "乡愁"
+      ],
+      "id": "P1-0002",
+      "scenes": [
+        "演讲结尾",
+        "社交闲谈"
+      ]
+    },
+    {
+      "category": "古诗词金句",
+      "subcategory": "诗词",
+      "original": "投我以木桃，报之以琼瑶。",
+      "source": "《诗经·卫风·木瓜》",
+      "meaning": "礼尚往来，厚报轻施。",
+      "usage_example": "强调 reciprocation 与感恩回馈。",
+      "difficulty": "初级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        " reciprocal",
+        "感恩"
+      ],
+      "id": "P1-0003",
+      "scenes": [
+        "通用"
+      ]
+    },
+    {
+      "category": "古诗词金句",
+      "subcategory": "诗词",
+      "original": "他山之石，可以攻玉。",
+      "source": "《诗经·小雅·鹤鸣》",
+      "meaning": "借助外部力量完善自身。",
+      "usage_example": "建议借鉴他人经验或跨界学习时使用。",
+      "difficulty": "初级",
+      "ability_tags": [
+        "素材储备力",
+        "结构组织力"
+      ],
+      "themes": [
+        "学习",
+        "借鉴"
+      ],
+      "id": "P1-0004",
+      "scenes": [
+        "演讲开场",
+        "职场谈吐"
+      ]
+    },
+    {
+      "category": "古诗词金句",
+      "subcategory": "诗词",
+      "original": "如切如磋，如琢如磨。",
+      "source": "《诗经·卫风·淇奥》",
+      "meaning": "精益求精，反复打磨。",
+      "usage_example": "形容学习、技艺或品格的持续精进。",
+      "difficulty": "初级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "修身",
+        "精进"
+      ],
+      "id": "P1-0005",
+      "scenes": [
+        "通用"
+      ]
+    },
+    {
+      "category": "古诗词金句",
+      "subcategory": "诗词",
+      "original": "靡不有初，鲜克有终。",
+      "source": "《诗经·大雅·荡》",
+      "meaning": "万事开头易，坚持难。",
+      "usage_example": "提醒做事有始有终，警惕半途而废。",
+      "difficulty": "中级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "坚持",
+        "警惕"
+      ],
+      "id": "P1-0006",
+      "scenes": [
+        "演讲开场",
+        "激励鼓舞",
+        "职场谈吐",
+        "辩论反驳"
+      ]
+    },
+    {
+      "category": "古诗词金句",
+      "subcategory": "诗词",
+      "original": "天行健，君子以自强不息。",
+      "source": "《周易·乾卦》",
+      "meaning": "天道刚健，君子应永不停息地自我提升。",
+      "usage_example": "激励持续奋斗、不懈怠的开场或结尾。",
+      "difficulty": "初级",
+      "ability_tags": [
+        "素材储备力",
+        "修辞表现力"
+      ],
+      "themes": [
+        "自强",
+        "君子",
+        "奋斗"
+      ],
+      "id": "P1-0007",
+      "scenes": [
+        "演讲开场",
+        "激励鼓舞",
+        "职场谈吐"
+      ]
+    },
+    {
+      "category": "古诗词金句",
+      "subcategory": "诗词",
+      "original": "地势坤，君子以厚德载物。",
+      "source": "《周易·坤卦》",
+      "meaning": "大地宽厚，君子应以深厚德行承载万物。",
+      "usage_example": "强调包容、格局与担当。",
+      "difficulty": "初级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "包容",
+        "德行",
+        "格局"
+      ],
+      "id": "P1-0008",
+      "scenes": [
+        "演讲开场",
+        "职场谈吐",
+        "辩论反驳"
+      ]
+    },
+    {
+      "category": "古诗词金句",
+      "subcategory": "诗词",
+      "original": "穷则变，变则通，通则久。",
+      "source": "《周易·系辞下》",
+      "meaning": "困境中求变，变则通达，通达则长久。",
+      "usage_example": "讨论转型、创新或破局时使用。",
+      "difficulty": "中级",
+      "ability_tags": [
+        "素材储备力",
+        "结构组织力"
+      ],
+      "themes": [
+        "变革",
+        "适应"
+      ],
+      "id": "P1-0009",
+      "scenes": [
+        "通用"
+      ]
+    },
+    {
+      "category": "古诗词金句",
+      "subcategory": "诗词",
+      "original": "满招损，谦受益。",
+      "source": "《尚书·大禹谟》",
+      "meaning": "自满招致损失，谦虚使人受益。",
+      "usage_example": "劝诫谦逊、反对骄傲的场合。",
+      "difficulty": "初级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "谦虚",
+        "修身"
+      ],
+      "id": "P1-0010",
+      "scenes": [
+        "通用"
+      ]
+    },
+    {
+      "category": "古诗词金句",
+      "subcategory": "诗词",
+      "original": "为山九仞，功亏一篑。",
+      "source": "《尚书·旅獒》",
+      "meaning": "功败垂成，差最后一步。",
+      "usage_example": "强调坚持到底的重要性。",
+      "difficulty": "初级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "坚持",
+        "警惕"
+      ],
+      "id": "P1-0011",
+      "scenes": [
+        "演讲开场",
+        "激励鼓舞",
+        "职场谈吐",
+        "辩论反驳"
+      ]
+    },
+    {
+      "category": "古诗词金句",
+      "subcategory": "诗词",
+      "original": "玉不琢，不成器；人不学，不知道。",
+      "source": "《礼记·学记》",
+      "meaning": "人需经过学习打磨才能成才。",
+      "usage_example": "强调教育与自我修炼的必要性。",
+      "difficulty": "初级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "学习",
+        "教育"
+      ],
+      "id": "P1-0012",
+      "scenes": [
+        "演讲开场",
+        "职场谈吐"
+      ]
+    },
+    {
+      "category": "古诗词金句",
+      "subcategory": "诗词",
+      "original": "独学而无友，则孤陋而寡闻。",
+      "source": "《礼记·学记》",
+      "meaning": "独自学习而无交流，见闻狭窄。",
+      "usage_example": "提倡交流、讨论与社群学习。",
+      "difficulty": "初级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "学习",
+        "交流"
+      ],
+      "id": "P1-0013",
+      "scenes": [
+        "演讲开场",
+        "职场谈吐"
+      ]
+    },
+    {
+      "category": "古诗词金句",
+      "subcategory": "诗词",
+      "original": "凡事豫则立，不豫则废。",
+      "source": "《礼记·中庸》",
+      "meaning": "事前准备充分则成功，否则失败。",
+      "usage_example": "强调规划与准备的重要性。",
+      "difficulty": "初级",
+      "ability_tags": [
+        "素材储备力",
+        "结构组织力"
+      ],
+      "themes": [
+        "准备",
+        "规划"
+      ],
+      "id": "P1-0014",
+      "scenes": [
+        "通用"
+      ]
+    },
+    {
+      "category": "古诗词金句",
+      "subcategory": "诗词",
+      "original": "博学之，审问之，慎思之，明辨之，笃行之。",
+      "source": "《礼记·中庸》",
+      "meaning": "学习的完整闭环：广博、审问、思考、辨别、践行。",
+      "usage_example": "阐述深度学习方法或个人成长路径。",
+      "difficulty": "中级",
+      "ability_tags": [
+        "结构组织力",
+        "素材储备力"
+      ],
+      "themes": [
+        "学习方法",
+        "知行合一"
+      ],
+      "id": "P1-0015",
+      "scenes": [
+        "通用"
+      ]
+    },
+    {
+      "category": "古诗词金句",
+      "subcategory": "诗词",
+      "original": "路漫漫其修远兮，吾将上下而求索。",
+      "source": "屈原《离骚》",
+      "meaning": "道路漫长，仍要坚持探索。",
+      "usage_example": "表达对理想的执着追求。",
+      "difficulty": "初级",
+      "ability_tags": [
+        "素材储备力",
+        "修辞表现力"
+      ],
+      "themes": [
+        "理想",
+        "探索",
+        "坚持"
+      ],
+      "id": "P1-0016",
+      "scenes": [
+        "演讲开场",
+        "激励鼓舞",
+        "职场谈吐"
+      ]
+    },
+    {
+      "category": "古诗词金句",
+      "subcategory": "诗词",
+      "original": "长太息以掩涕兮，哀民生之多艰。",
+      "source": "屈原《离骚》",
+      "meaning": "对民生疾苦的深切同情。",
+      "usage_example": "表达家国情怀或对现实问题的关切。",
+      "difficulty": "中级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "家国",
+        "同情"
+      ],
+      "id": "P1-0017",
+      "scenes": [
+        "演讲开场",
+        "激励鼓舞"
+      ]
+    },
+    {
+      "category": "古诗词金句",
+      "subcategory": "诗词",
+      "original": "亦余心之所善兮，虽九死其犹未悔。",
+      "source": "屈原《离骚》",
+      "meaning": "内心认定的善，纵使九死不悔。",
+      "usage_example": "表达坚定信念与无悔追求。",
+      "difficulty": "中级",
+      "ability_tags": [
+        "素材储备力",
+        "修辞表现力"
+      ],
+      "themes": [
+        "信念",
+        "无悔"
+      ],
+      "id": "P1-0018",
+      "scenes": [
+        "通用"
+      ]
+    },
+    {
+      "category": "古诗词金句",
+      "subcategory": "诗词",
+      "original": "举世皆浊我独清，众人皆醉我独醒。",
+      "source": "屈原《渔父》",
+      "meaning": "坚持清醒与独立人格。",
+      "usage_example": "强调独立思考、不随波逐流。",
+      "difficulty": "中级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "独立",
+        "清醒"
+      ],
+      "id": "P1-0019",
+      "scenes": [
+        "演讲开场",
+        "自我介绍"
+      ]
+    },
+    {
+      "category": "古诗词金句",
+      "subcategory": "诗词",
+      "original": "人固有一死，或重于泰山，或轻于鸿毛。",
+      "source": "司马迁《报任安书》",
+      "meaning": "死有轻重，价值取向不同。",
+      "usage_example": "讨论生命意义、价值选择时使用。",
+      "difficulty": "中级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "生死",
+        "价值"
+      ],
+      "id": "P1-0020",
+      "scenes": [
+        "通用"
+      ]
+    },
+    {
+      "category": "古诗词金句",
+      "subcategory": "诗词",
+      "original": "桃李不言，下自成蹊。",
+      "source": "《史记·李将军列传》",
+      "meaning": "真正的价值无需自我宣传。",
+      "usage_example": "形容以实际行动赢得尊重。",
+      "difficulty": "初级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "实干",
+        "影响力"
+      ],
+      "id": "P1-0021",
+      "scenes": [
+        "通用"
+      ]
+    },
+    {
+      "category": "古诗词金句",
+      "subcategory": "诗词",
+      "original": "燕雀安知鸿鹄之志哉！",
+      "source": "《史记·陈涉世家》",
+      "meaning": "小人物不懂远大志向。",
+      "usage_example": "表达远大抱负或反驳短视。",
+      "difficulty": "初级",
+      "ability_tags": [
+        "素材储备力",
+        "修辞表现力"
+      ],
+      "themes": [
+        "志向",
+        "格局"
+      ],
+      "id": "P1-0022",
+      "scenes": [
+        "演讲开场",
+        "激励鼓舞",
+        "职场谈吐",
+        "辩论反驳"
+      ]
+    },
+    {
+      "category": "古诗词金句",
+      "subcategory": "诗词",
+      "original": "大风起兮云飞扬，威加海内兮归故乡。",
+      "source": "刘邦《大风歌》",
+      "meaning": "功成名就后的感慨与思乡。",
+      "usage_example": "表达成就与回归的复杂情感。",
+      "difficulty": "中级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "成就",
+        "故乡"
+      ],
+      "id": "P1-0023",
+      "scenes": [
+        "通用"
+      ]
+    },
+    {
+      "category": "古诗词金句",
+      "subcategory": "诗词",
+      "original": "对酒当歌，人生几何！譬如朝露，去日苦多。",
+      "source": "曹操《短歌行》",
+      "meaning": "人生短暂，应及时把握。",
+      "usage_example": "感慨时光易逝，激励及时行动。",
+      "difficulty": "初级",
+      "ability_tags": [
+        "素材储备力",
+        "修辞表现力"
+      ],
+      "themes": [
+        "时间",
+        "珍惜"
+      ],
+      "id": "P1-0024",
+      "scenes": [
+        "通用"
+      ]
+    },
+    {
+      "category": "古诗词金句",
+      "subcategory": "诗词",
+      "original": "山不厌高，海不厌深。周公吐哺，天下归心。",
+      "source": "曹操《短歌行》",
+      "meaning": "求贤若渴，广纳人才。",
+      "usage_example": "表达对人才的渴求与包容态度。",
+      "difficulty": "中级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "人才",
+        "包容"
+      ],
+      "id": "P1-0025",
+      "scenes": [
+        "演讲开场",
+        "职场谈吐"
+      ]
+    },
+    {
+      "category": "古诗词金句",
+      "subcategory": "诗词",
+      "original": "老骥伏枥，志在千里；烈士暮年，壮心不已。",
+      "source": "曹操《龟虽寿》",
+      "meaning": "年老仍有雄心壮志。",
+      "usage_example": "鼓励中老年持续追求与奋斗。",
+      "difficulty": "初级",
+      "ability_tags": [
+        "素材储备力",
+        "修辞表现力"
+      ],
+      "themes": [
+        "志向",
+        "年龄"
+      ],
+      "id": "P1-0026",
+      "scenes": [
+        "演讲开场",
+        "激励鼓舞",
+        "职场谈吐"
+      ]
+    },
+    {
+      "category": "古诗词金句",
+      "subcategory": "诗词",
+      "original": "采菊东篱下，悠然见南山。",
+      "source": "陶渊明《饮酒·其五》",
+      "meaning": "闲适自得的田园心境。",
+      "usage_example": "表达淡泊、回归自然的生活态度。",
+      "difficulty": "初级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "淡泊",
+        "自然"
+      ],
+      "id": "P1-0027",
+      "scenes": [
+        "通用"
+      ]
+    },
+    {
+      "category": "古诗词金句",
+      "subcategory": "诗词",
+      "original": "此中有真意，欲辨已忘言。",
+      "source": "陶渊明《饮酒·其五》",
+      "meaning": "真意难以言传。",
+      "usage_example": "表达深刻体验超出语言表达的境界。",
+      "difficulty": "中级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "意境",
+        "言不尽意"
+      ],
+      "id": "P1-0028",
+      "scenes": [
+        "通用"
+      ]
+    },
+    {
+      "category": "古诗词金句",
+      "subcategory": "诗词",
+      "original": "少无适俗韵，性本爱丘山。",
+      "source": "陶渊明《归园田居·其一》",
+      "meaning": "本性热爱自然，不适世俗。",
+      "usage_example": "表达对自由与本真的追求。",
+      "difficulty": "初级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "自由",
+        "本真"
+      ],
+      "id": "P1-0029",
+      "scenes": [
+        "演讲开场",
+        "自我介绍"
+      ]
+    },
+    {
+      "category": "古诗词金句",
+      "subcategory": "诗词",
+      "original": "海内存知己，天涯若比邻。",
+      "source": "王勃《送杜少府之任蜀州》",
+      "meaning": "真正的知己不因距离而疏远。",
+      "usage_example": "安慰离别或强调精神连接。",
+      "difficulty": "初级",
+      "ability_tags": [
+        "素材储备力",
+        "修辞表现力"
+      ],
+      "themes": [
+        "友情",
+        "离别"
+      ],
+      "id": "P1-0030",
+      "scenes": [
+        "演讲结尾",
+        "社交闲谈"
+      ]
+    },
+    {
+      "category": "古诗词金句",
+      "subcategory": "诗词",
+      "original": "落霞与孤鹜齐飞，秋水共长天一色。",
+      "source": "王勃《滕王阁序》",
+      "meaning": "壮美的自然景象与开阔意境。",
+      "usage_example": "描写开阔景色或表达豪迈心境。",
+      "difficulty": "中级",
+      "ability_tags": [
+        "修辞表现力"
+      ],
+      "themes": [
+        "写景",
+        "豪迈"
+      ],
+      "id": "P1-0031",
+      "scenes": [
+        "通用"
+      ]
+    },
+    {
+      "category": "古诗词金句",
+      "subcategory": "诗词",
+      "original": "老当益壮，宁移白首之心？穷且益坚，不坠青云之志。",
+      "source": "王勃《滕王阁序》",
+      "meaning": "年老志更坚，穷困志不改。",
+      "usage_example": "激励在困境中保持志向。",
+      "difficulty": "中级",
+      "ability_tags": [
+        "素材储备力",
+        "修辞表现力"
+      ],
+      "themes": [
+        "志向",
+        "困境"
+      ],
+      "id": "P1-0032",
+      "scenes": [
+        "演讲开场",
+        "激励鼓舞",
+        "职场谈吐"
+      ]
+    },
+    {
+      "category": "古诗词金句",
+      "subcategory": "诗词",
+      "original": "欲穷千里目，更上一层楼。",
+      "source": "王之涣《登鹳雀楼》",
+      "meaning": "站得高才能看得远。",
+      "usage_example": "鼓励提升视角、追求更高境界。",
+      "difficulty": "初级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "视野",
+        "进取"
+      ],
+      "id": "P1-0033",
+      "scenes": [
+        "演讲开场",
+        "职场谈吐",
+        "辩论反驳"
+      ]
+    },
+    {
+      "category": "古诗词金句",
+      "subcategory": "诗词",
+      "original": "黄河远上白云间，一片孤城万仞山。",
+      "source": "王之涣《凉州词》",
+      "meaning": "边塞的苍凉与壮阔。",
+      "usage_example": "描写辽阔或孤绝的意境。",
+      "difficulty": "中级",
+      "ability_tags": [
+        "修辞表现力"
+      ],
+      "themes": [
+        "边塞",
+        "苍凉"
+      ],
+      "id": "P1-0034",
+      "scenes": [
+        "通用"
+      ]
+    },
+    {
+      "category": "古诗词金句",
+      "subcategory": "诗词",
+      "original": "春眠不觉晓，处处闻啼鸟。",
+      "source": "孟浩然《春晓》",
+      "meaning": "春天的宁静与生机。",
+      "usage_example": "表达对自然细微变化的敏感。",
+      "difficulty": "初级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "自然",
+        "春天"
+      ],
+      "id": "P1-0035",
+      "scenes": [
+        "通用"
+      ]
+    },
+    {
+      "category": "古诗词金句",
+      "subcategory": "诗词",
+      "original": "野旷天低树，江清月近人。",
+      "source": "孟浩然《宿建德江》",
+      "meaning": "空旷与亲近的自然感受。",
+      "usage_example": "描写宁静夜色或孤独中的慰藉。",
+      "difficulty": "中级",
+      "ability_tags": [
+        "修辞表现力"
+      ],
+      "themes": [
+        "写景",
+        "宁静"
+      ],
+      "id": "P1-0036",
+      "scenes": [
+        "通用"
+      ]
+    },
+    {
+      "category": "古诗词金句",
+      "subcategory": "诗词",
+      "original": "大漠孤烟直，长河落日圆。",
+      "source": "王维《使至塞上》",
+      "meaning": "边塞壮阔画面的极致描绘。",
+      "usage_example": "形容宏大、简洁而有力的景象。",
+      "difficulty": "中级",
+      "ability_tags": [
+        "修辞表现力"
+      ],
+      "themes": [
+        "边塞",
+        "壮阔"
+      ],
+      "id": "P1-0037",
+      "scenes": [
+        "通用"
+      ]
+    },
+    {
+      "category": "古诗词金句",
+      "subcategory": "诗词",
+      "original": "行到水穷处，坐看云起时。",
+      "source": "王维《终南别业》",
+      "meaning": "随遇而安，无心而往。",
+      "usage_example": "表达从容、顺应自然的心态。",
+      "difficulty": "中级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "从容",
+        "自然"
+      ],
+      "id": "P1-0038",
+      "scenes": [
+        "劝慰安慰",
+        "演讲结尾",
+        "社交闲谈"
+      ]
+    },
+    {
+      "category": "古诗词金句",
+      "subcategory": "诗词",
+      "original": "明月松间照，清泉石上流。",
+      "source": "王维《山居秋暝》",
+      "meaning": "清幽静谧的山居之境。",
+      "usage_example": "描写清雅、宁静的自然美。",
+      "difficulty": "初级",
+      "ability_tags": [
+        "修辞表现力"
+      ],
+      "themes": [
+        "自然",
+        "清幽"
+      ],
+      "id": "P1-0039",
+      "scenes": [
+        "通用"
+      ]
+    },
+    {
+      "category": "古诗词金句",
+      "subcategory": "诗词",
+      "original": "独在异乡为异客，每逢佳节倍思亲。",
+      "source": "王维《九月九日忆山东兄弟》",
+      "meaning": "异乡佳节的思亲之情。",
+      "usage_example": "表达乡愁与亲情。",
+      "difficulty": "初级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "乡愁",
+        "亲情"
+      ],
+      "id": "P1-0040",
+      "scenes": [
+        "演讲结尾",
+        "社交闲谈"
+      ]
+    },
+    {
+      "category": "古诗词金句",
+      "subcategory": "诗词",
+      "original": "劝君更尽一杯酒，西出阳关无故人。",
+      "source": "王维《送元二使安西》",
+      "meaning": "离别时的深情劝酒。",
+      "usage_example": "送别场合的经典表达。",
+      "difficulty": "初级",
+      "ability_tags": [
+        "素材储备力",
+        "修辞表现力"
+      ],
+      "themes": [
+        "离别",
+        "友情"
+      ],
+      "id": "P1-0041",
+      "scenes": [
+        "演讲结尾",
+        "社交闲谈"
+      ]
+    },
+    {
+      "category": "古诗词金句",
+      "subcategory": "诗词",
+      "original": "床前明月光，疑是地上霜。",
+      "source": "李白《静夜思》",
+      "meaning": "最朴素的思乡表达。",
+      "usage_example": "表达简单而深刻的乡愁。",
+      "difficulty": "初级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "乡愁"
+      ],
+      "id": "P1-0042",
+      "scenes": [
+        "演讲结尾",
+        "社交闲谈"
+      ]
+    },
+    {
+      "category": "古诗词金句",
+      "subcategory": "诗词",
+      "original": "天生我材必有用，千金散尽还复来。",
+      "source": "李白《将进酒》",
+      "meaning": "自信人生价值，不为物质所困。",
+      "usage_example": "鼓励自信与豁达。",
+      "difficulty": "初级",
+      "ability_tags": [
+        "素材储备力",
+        "修辞表现力"
+      ],
+      "themes": [
+        "自信",
+        "豁达"
+      ],
+      "id": "P1-0043",
+      "scenes": [
+        "劝慰安慰",
+        "演讲结尾",
+        "社交闲谈"
+      ]
+    },
+    {
+      "category": "古诗词金句",
+      "subcategory": "诗词",
+      "original": "长风破浪会有时，直挂云帆济沧海。",
+      "source": "李白《行路难》",
+      "meaning": "总有乘风破浪的一天。",
+      "usage_example": "激励在困境中保持希望。",
+      "difficulty": "初级",
+      "ability_tags": [
+        "素材储备力",
+        "修辞表现力"
+      ],
+      "themes": [
+        "希望",
+        "奋斗"
+      ],
+      "id": "P1-0044",
+      "scenes": [
+        "演讲开场",
+        "激励鼓舞",
+        "职场谈吐"
+      ]
+    },
+    {
+      "category": "古诗词金句",
+      "subcategory": "诗词",
+      "original": "安能摧眉折腰事权贵，使我不得开心颜！",
+      "source": "李白《梦游天姥吟留别》",
+      "meaning": "不愿为权贵折腰。",
+      "usage_example": "表达独立人格与自由精神。",
+      "difficulty": "中级",
+      "ability_tags": [
+        "素材储备力",
+        "修辞表现力"
+      ],
+      "themes": [
+        "独立",
+        "自由"
+      ],
+      "id": "P1-0045",
+      "scenes": [
+        "演讲开场",
+        "自我介绍"
+      ]
+    },
+    {
+      "category": "古诗词金句",
+      "subcategory": "诗词",
+      "original": "抽刀断水水更流，举杯消愁愁更愁。",
+      "source": "李白《宣州谢朓楼饯别校书叔云》",
+      "meaning": "愁绪难以用简单方式消除。",
+      "usage_example": "表达深刻的烦恼与无奈。",
+      "difficulty": "中级",
+      "ability_tags": [
+        "修辞表现力"
+      ],
+      "themes": [
+        "愁绪",
+        "无奈"
+      ],
+      "id": "P1-0046",
+      "scenes": [
+        "通用"
+      ]
+    },
+    {
+      "category": "古诗词金句",
+      "subcategory": "诗词",
+      "original": "两岸猿声啼不住，轻舟已过万重山。",
+      "source": "李白《早发白帝城》",
+      "meaning": "轻快通过艰难险阻。",
+      "usage_example": "形容迅速克服困难或时光飞逝。",
+      "difficulty": "初级",
+      "ability_tags": [
+        "修辞表现力"
+      ],
+      "themes": [
+        "轻快",
+        "克服"
+      ],
+      "id": "P1-0047",
+      "scenes": [
+        "通用"
+      ]
+    },
+    {
+      "category": "古诗词金句",
+      "subcategory": "诗词",
+      "original": "会当凌绝顶，一览众山小。",
+      "source": "杜甫《望岳》",
+      "meaning": "站在巅峰俯视一切。",
+      "usage_example": "表达攀登高峰、超越自我的志向。",
+      "difficulty": "初级",
+      "ability_tags": [
+        "素材储备力",
+        "修辞表现力"
+      ],
+      "themes": [
+        "志向",
+        "超越"
+      ],
+      "id": "P1-0048",
+      "scenes": [
+        "演讲开场",
+        "激励鼓舞",
+        "职场谈吐"
+      ]
+    },
+    {
+      "category": "古诗词金句",
+      "subcategory": "诗词",
+      "original": "读书破万卷，下笔如有神。",
+      "source": "杜甫《奉赠韦左丞丈二十二韵》",
+      "meaning": "博览群书才能文思泉涌。",
+      "usage_example": "强调阅读积累对表达的重要性。",
+      "difficulty": "初级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "阅读",
+        "写作"
+      ],
+      "id": "P1-0049",
+      "scenes": [
+        "通用"
+      ]
+    },
+    {
+      "category": "古诗词金句",
+      "subcategory": "诗词",
+      "original": "安得广厦千万间，大庇天下寒士俱欢颜。",
+      "source": "杜甫《茅屋为秋风所破歌》",
+      "meaning": "推己及人，心怀天下。",
+      "usage_example": "表达社会责任感与仁爱之心。",
+      "difficulty": "中级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "仁爱",
+        "家国"
+      ],
+      "id": "P1-0050",
+      "scenes": [
+        "演讲开场",
+        "激励鼓舞",
+        "职场谈吐",
+        "自我介绍"
+      ]
+    },
+    {
+      "category": "古诗词金句",
+      "subcategory": "诗词",
+      "original": "出师未捷身先死，长使英雄泪满襟。",
+      "source": "杜甫《蜀相》",
+      "meaning": "壮志未酬的遗憾。",
+      "usage_example": "表达对未竟事业的惋惜与敬意。",
+      "difficulty": "中级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "遗憾",
+        "英雄"
+      ],
+      "id": "P1-0051",
+      "scenes": [
+        "通用"
+      ]
+    },
+    {
+      "category": "古诗词金句",
+      "subcategory": "诗词",
+      "original": "无边落木萧萧下，不尽长江滚滚来。",
+      "source": "杜甫《登高》",
+      "meaning": "时光与历史的浩荡流逝。",
+      "usage_example": "表达对时间与历史的宏大感受。",
+      "difficulty": "中级",
+      "ability_tags": [
+        "修辞表现力"
+      ],
+      "themes": [
+        "时间",
+        "历史"
+      ],
+      "id": "P1-0052",
+      "scenes": [
+        "通用"
+      ]
+    },
+    {
+      "category": "古诗词金句",
+      "subcategory": "诗词",
+      "original": "春风又绿江南岸，明月何时照我还。",
+      "source": "王安石《泊船瓜洲》",
+      "meaning": "对归乡的深切期盼。",
+      "usage_example": "表达思乡与等待。",
+      "difficulty": "初级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "乡愁",
+        "等待"
+      ],
+      "id": "P1-0053",
+      "scenes": [
+        "演讲结尾",
+        "社交闲谈"
+      ]
+    },
+    {
+      "category": "古诗词金句",
+      "subcategory": "诗词",
+      "original": "不畏浮云遮望眼，自缘身在最高层。",
+      "source": "王安石《登飞来峰》",
+      "meaning": "站得高就不怕遮挡。",
+      "usage_example": "鼓励提升格局，不被表象迷惑。",
+      "difficulty": "初级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "格局",
+        "视野"
+      ],
+      "id": "P1-0054",
+      "scenes": [
+        "演讲开场",
+        "职场谈吐",
+        "辩论反驳"
+      ]
+    },
+    {
+      "category": "古诗词金句",
+      "subcategory": "诗词",
+      "original": "爆竹声中一岁除，春风送暖入屠苏。",
+      "source": "王安石《元日》",
+      "meaning": "新年的喜庆与更新。",
+      "usage_example": "表达新年希望与除旧布新。",
+      "difficulty": "初级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "新年",
+        "希望"
+      ],
+      "id": "P1-0055",
+      "scenes": [
+        "演讲开场",
+        "激励鼓舞",
+        "职场谈吐"
+      ]
+    },
+    {
+      "category": "古诗词金句",
+      "subcategory": "诗词",
+      "original": "横看成岭侧成峰，远近高低各不同。",
+      "source": "苏轼《题西林壁》",
+      "meaning": "角度不同，所见不同。",
+      "usage_example": "说明立场与视角影响认知。",
+      "difficulty": "初级",
+      "ability_tags": [
+        "素材储备力",
+        "结构组织力"
+      ],
+      "themes": [
+        "视角",
+        "认知"
+      ],
+      "id": "P1-0056",
+      "scenes": [
+        "演讲开场",
+        "职场谈吐",
+        "辩论反驳"
+      ]
+    },
+    {
+      "category": "古诗词金句",
+      "subcategory": "诗词",
+      "original": "不识庐山真面目，只缘身在此山中。",
+      "source": "苏轼《题西林壁》",
+      "meaning": "当局者迷。",
+      "usage_example": "提醒跳出局部看整体。",
+      "difficulty": "初级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "认知",
+        "局限"
+      ],
+      "id": "P1-0057",
+      "scenes": [
+        "演讲开场",
+        "职场谈吐",
+        "辩论反驳"
+      ]
+    },
+    {
+      "category": "古诗词金句",
+      "subcategory": "诗词",
+      "original": "人生如逆旅，我亦是行人。",
+      "source": "苏轼《临江仙·送钱穆父》",
+      "meaning": "人生本是旅途，大家都是过客。",
+      "usage_example": "表达豁达的人生态度。",
+      "difficulty": "中级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "豁达",
+        "人生"
+      ],
+      "id": "P1-0058",
+      "scenes": [
+        "劝慰安慰",
+        "演讲结尾",
+        "社交闲谈"
+      ]
+    },
+    {
+      "category": "古诗词金句",
+      "subcategory": "诗词",
+      "original": "竹杖芒鞋轻胜马，谁怕？一蓑烟雨任平生。",
+      "source": "苏轼《定风波》",
+      "meaning": "从容面对风雨。",
+      "usage_example": "表达乐观与随遇而安。",
+      "difficulty": "中级",
+      "ability_tags": [
+        "素材储备力",
+        "修辞表现力"
+      ],
+      "themes": [
+        "乐观",
+        "从容"
+      ],
+      "id": "P1-0059",
+      "scenes": [
+        "劝慰安慰",
+        "演讲结尾",
+        "社交闲谈"
+      ]
+    },
+    {
+      "category": "古诗词金句",
+      "subcategory": "诗词",
+      "original": "回首向来萧瑟处，归去，也无风雨也无晴。",
+      "source": "苏轼《定风波》",
+      "meaning": "回望过去，已无悲喜。",
+      "usage_example": "表达历经风雨后的平静。",
+      "difficulty": "中级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "平静",
+        "超越"
+      ],
+      "id": "P1-0060",
+      "scenes": [
+        "劝慰安慰",
+        "演讲结尾",
+        "社交闲谈"
+      ]
+    },
+    {
+      "category": "古诗词金句",
+      "subcategory": "诗词",
+      "original": "但愿人长久，千里共婵娟。",
+      "source": "苏轼《水调歌头》",
+      "meaning": "愿人平安，虽远共赏明月。",
+      "usage_example": "表达对远方亲人朋友的祝福。",
+      "difficulty": "初级",
+      "ability_tags": [
+        "素材储备力",
+        "修辞表现力"
+      ],
+      "themes": [
+        "祝福",
+        "思念"
+      ],
+      "id": "P1-0061",
+      "scenes": [
+        "演讲结尾",
+        "社交闲谈"
+      ]
+    },
+    {
+      "category": "古诗词金句",
+      "subcategory": "诗词",
+      "original": "枝上柳绵吹又少，天涯何处无芳草。",
+      "source": "苏轼《蝶恋花》",
+      "meaning": "美好事物易逝，但希望仍在。",
+      "usage_example": "表达惜春与寻找希望。",
+      "difficulty": "中级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "希望",
+        "惜时"
+      ],
+      "id": "P1-0062",
+      "scenes": [
+        "演讲开场",
+        "激励鼓舞",
+        "职场谈吐"
+      ]
+    },
+    {
+      "category": "古诗词金句",
+      "subcategory": "诗词",
+      "original": "落红不是无情物，化作春泥更护花。",
+      "source": "龚自珍《己亥杂诗》",
+      "meaning": "牺牲自我成就新生。",
+      "usage_example": "表达奉献与传承的精神。",
+      "difficulty": "中级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "奉献",
+        "传承"
+      ],
+      "id": "P1-0063",
+      "scenes": [
+        "通用"
+      ]
+    },
+    {
+      "category": "古诗词金句",
+      "subcategory": "诗词",
+      "original": "我劝天公重抖擞，不拘一格降人才。",
+      "source": "龚自珍《己亥杂诗》",
+      "meaning": "呼吁打破常规选拔人才。",
+      "usage_example": "强调不拘一格用人才。",
+      "difficulty": "中级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "人才",
+        "变革"
+      ],
+      "id": "P1-0064",
+      "scenes": [
+        "演讲开场",
+        "职场谈吐"
+      ]
+    },
+    {
+      "category": "古诗词金句",
+      "subcategory": "诗词",
+      "original": "九州生气恃风雷，万马齐喑究可哀。",
+      "source": "龚自珍《己亥杂诗》",
+      "meaning": "沉闷局面需要变革冲击。",
+      "usage_example": "表达对沉闷现状的批判与变革渴望。",
+      "difficulty": "中级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "变革",
+        "批判"
+      ],
+      "id": "P1-0065",
+      "scenes": [
+        "通用"
+      ]
+    },
+    {
+      "category": "古诗词金句",
+      "subcategory": "诗词",
+      "original": "生当作人杰，死亦为鬼雄。",
+      "source": "李清照《夏日绝句》",
+      "meaning": "生要杰出，死也要英雄。",
+      "usage_example": "表达强烈的民族气节与人格追求。",
+      "difficulty": "中级",
+      "ability_tags": [
+        "素材储备力",
+        "修辞表现力"
+      ],
+      "themes": [
+        "气节",
+        "英雄"
+      ],
+      "id": "P1-0066",
+      "scenes": [
+        "演讲开场",
+        "激励鼓舞"
+      ]
+    },
+    {
+      "category": "古诗词金句",
+      "subcategory": "诗词",
+      "original": "寻寻觅觅，冷冷清清，凄凄惨惨戚戚。",
+      "source": "李清照《声声慢》",
+      "meaning": "极度的孤独与愁苦。",
+      "usage_example": "表达深沉的悲伤与失落。",
+      "difficulty": "高级",
+      "ability_tags": [
+        "修辞表现力"
+      ],
+      "themes": [
+        "愁苦",
+        "孤独"
+      ],
+      "id": "P1-0067",
+      "scenes": [
+        "通用"
+      ]
+    },
+    {
+      "category": "古诗词金句",
+      "subcategory": "诗词",
+      "original": "莫道不消魂，帘卷西风，人比黄花瘦。",
+      "source": "李清照《醉花阴》",
+      "meaning": "思念使人憔悴。",
+      "usage_example": "表达深切的相思之情。",
+      "difficulty": "中级",
+      "ability_tags": [
+        "修辞表现力"
+      ],
+      "themes": [
+        "相思",
+        "愁绪"
+      ],
+      "id": "P1-0068",
+      "scenes": [
+        "通用"
+      ]
+    },
+    {
+      "category": "古诗词金句",
+      "subcategory": "诗词",
+      "original": "人生若只如初见，何事秋风悲画扇。",
+      "source": "纳兰性德《木兰花》",
+      "meaning": "若情感始终如初，就不会有后来的伤感。",
+      "usage_example": "表达对美好开始与后来变化的感慨。",
+      "difficulty": "中级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "情感",
+        "遗憾"
+      ],
+      "id": "P1-0069",
+      "scenes": [
+        "通用"
+      ]
+    },
+    {
+      "category": "古诗词金句",
+      "subcategory": "诗词",
+      "original": "山一程，水一程，身向榆关那畔行，夜深千帐灯。",
+      "source": "纳兰性德《长相思》",
+      "meaning": "旅途的漫长与思乡。",
+      "usage_example": "表达行役与乡愁。",
+      "difficulty": "中级",
+      "ability_tags": [
+        "修辞表现力"
+      ],
+      "themes": [
+        "旅途",
+        "乡愁"
+      ],
+      "id": "P1-0070",
+      "scenes": [
+        "演讲结尾",
+        "社交闲谈"
+      ]
+    },
+    {
+      "category": "典故与成语",
+      "subcategory": "典故",
+      "original": "破釜沉舟",
+      "source": "《史记·项羽本纪》",
+      "meaning": "项羽渡河后砸锅沉船，断绝退路，激励士兵死战。比喻下定决心，不留后路。",
+      "usage_example": "强调破釜沉舟的决心与全力以赴。",
+      "difficulty": "初级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "决心",
+        "勇气"
+      ],
+      "id": "P1-0071",
+      "scenes": [
+        "职场谈吐",
+        "辩论反驳"
+      ]
+    },
+    {
+      "category": "典故与成语",
+      "subcategory": "典故",
+      "original": "卧薪尝胆",
+      "source": "《史记·越王勾践世家》",
+      "meaning": "勾践忍辱负重，睡柴草尝苦胆，最终复国。比喻刻苦自励，发愤图强。",
+      "usage_example": "描述长期隐忍与最终逆袭。",
+      "difficulty": "初级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "隐忍",
+        "复国",
+        "坚持"
+      ],
+      "id": "P1-0072",
+      "scenes": [
+        "演讲开场",
+        "激励鼓舞",
+        "职场谈吐",
+        "辩论反驳"
+      ]
+    },
+    {
+      "category": "典故与成语",
+      "subcategory": "典故",
+      "original": "三顾茅庐",
+      "source": "《三国志·蜀书·诸葛亮传》",
+      "meaning": "刘备三次拜访诸葛亮，请其出山。比喻诚心诚意邀请贤才。",
+      "usage_example": "表达求贤若渴或多次真诚邀请。",
+      "difficulty": "初级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "求贤",
+        "诚意"
+      ],
+      "id": "P1-0073",
+      "scenes": [
+        "演讲开场",
+        "职场谈吐",
+        "辩论反驳"
+      ]
+    },
+    {
+      "category": "典故与成语",
+      "subcategory": "典故",
+      "original": "完璧归赵",
+      "source": "《史记·廉颇蔺相如列传》",
+      "meaning": "蔺相如带着和氏璧出使秦国，最终完好带回。比喻把原物完好归还。",
+      "usage_example": "强调诚信与机智完成使命。",
+      "difficulty": "初级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "诚信",
+        "机智"
+      ],
+      "id": "P1-0074",
+      "scenes": [
+        "演讲开场",
+        "职场谈吐",
+        "自我介绍",
+        "辩论反驳"
+      ]
+    },
+    {
+      "category": "典故与成语",
+      "subcategory": "典故",
+      "original": "负荆请罪",
+      "source": "《史记·廉颇蔺相如列传》",
+      "meaning": "廉颇背着荆条向蔺相如请罪。比喻主动承认错误，请求责罚。",
+      "usage_example": "表达真诚道歉与化解矛盾。",
+      "difficulty": "初级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "道歉",
+        "和解"
+      ],
+      "id": "P1-0075",
+      "scenes": [
+        "职场谈吐",
+        "辩论反驳"
+      ]
+    },
+    {
+      "category": "典故与成语",
+      "subcategory": "典故",
+      "original": "纸上谈兵",
+      "source": "《史记·廉颇蔺相如列传》",
+      "meaning": "赵括只会纸上谈兵，实际作战惨败。比喻空谈理论，不能解决实际问题。",
+      "usage_example": "批评脱离实际的空谈。",
+      "difficulty": "初级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "空谈",
+        "实践"
+      ],
+      "id": "P1-0076",
+      "scenes": [
+        "职场谈吐",
+        "辩论反驳"
+      ]
+    },
+    {
+      "category": "典故与成语",
+      "subcategory": "典故",
+      "original": "指鹿为马",
+      "source": "《史记·秦始皇本纪》",
+      "meaning": "赵高指鹿为马，测试官员忠诚。比喻故意颠倒黑白，混淆是非。",
+      "usage_example": "批判歪曲事实、阿谀奉承。",
+      "difficulty": "初级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "是非",
+        "权术"
+      ],
+      "id": "P1-0077",
+      "scenes": [
+        "职场谈吐",
+        "辩论反驳"
+      ]
+    },
+    {
+      "category": "典故与成语",
+      "subcategory": "典故",
+      "original": "四面楚歌",
+      "source": "《史记·项羽本纪》",
+      "meaning": "项羽被围，四面响起楚歌，军心溃散。比喻陷入四面受敌、孤立无援的境地。",
+      "usage_example": "描述极度困境与孤立。",
+      "difficulty": "初级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "困境",
+        "孤立"
+      ],
+      "id": "P1-0078",
+      "scenes": [
+        "职场谈吐",
+        "辩论反驳"
+      ]
+    },
+    {
+      "category": "典故与成语",
+      "subcategory": "典故",
+      "original": "背水一战",
+      "source": "《史记·淮阴侯列传》",
+      "meaning": "韩信背水列阵，绝处求生，大获全胜。比喻处于绝境中的奋力一搏。",
+      "usage_example": "强调绝境中的勇气与决心。",
+      "difficulty": "初级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "绝境",
+        "勇气"
+      ],
+      "id": "P1-0079",
+      "scenes": [
+        "职场谈吐",
+        "辩论反驳"
+      ]
+    },
+    {
+      "category": "典故与成语",
+      "subcategory": "典故",
+      "original": "闻鸡起舞",
+      "source": "《晋书·祖逖传》",
+      "meaning": "祖逖与刘琨听到鸡叫就起床练剑。比喻有志之士及时奋发。",
+      "usage_example": "鼓励及时行动、勤奋自律。",
+      "difficulty": "初级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "勤奋",
+        "志向"
+      ],
+      "id": "P1-0080",
+      "scenes": [
+        "演讲开场",
+        "激励鼓舞",
+        "职场谈吐",
+        "辩论反驳"
+      ]
+    },
+    {
+      "category": "典故与成语",
+      "subcategory": "典故",
+      "original": "东山再起",
+      "source": "《晋书·谢安传》",
+      "meaning": "谢安隐居东山后再次出仕，建立功业。比喻退隐后再次出山取得成就。",
+      "usage_example": "描述重新崛起或复出。",
+      "difficulty": "初级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "复出",
+        "崛起"
+      ],
+      "id": "P1-0081",
+      "scenes": [
+        "职场谈吐",
+        "辩论反驳"
+      ]
+    },
+    {
+      "category": "典故与成语",
+      "subcategory": "典故",
+      "original": "草木皆兵",
+      "source": "《晋书·苻坚载记》",
+      "meaning": "淝水之战前秦军心惊恐，把草木都看成敌兵。比喻极度恐惧，疑神疑鬼。",
+      "usage_example": "形容恐慌心理放大威胁。",
+      "difficulty": "初级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "恐惧",
+        "心理"
+      ],
+      "id": "P1-0082",
+      "scenes": [
+        "职场谈吐",
+        "辩论反驳"
+      ]
+    },
+    {
+      "category": "典故与成语",
+      "subcategory": "典故",
+      "original": "风声鹤唳",
+      "source": "《晋书·谢玄传》",
+      "meaning": "前秦败军听到风声鹤叫都以为是追兵。比喻惊慌失措，自相惊扰。",
+      "usage_example": "描述战败后的恐慌状态。",
+      "difficulty": "初级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "恐慌",
+        "战败"
+      ],
+      "id": "P1-0083",
+      "scenes": [
+        "职场谈吐",
+        "辩论反驳"
+      ]
+    },
+    {
+      "category": "典故与成语",
+      "subcategory": "典故",
+      "original": "刮目相看",
+      "source": "《三国志·吴书·吕蒙传》",
+      "meaning": "鲁肃对进步后的吕蒙刮目相看。比喻用新的眼光看待人或事物。",
+      "usage_example": "表达对他人进步的重新认识。",
+      "difficulty": "初级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "进步",
+        "评价"
+      ],
+      "id": "P1-0084",
+      "scenes": [
+        "职场谈吐",
+        "辩论反驳"
+      ]
+    },
+    {
+      "category": "典故与成语",
+      "subcategory": "典故",
+      "original": "吴下阿蒙",
+      "source": "《三国志·吴书·吕蒙传》",
+      "meaning": "吕蒙早年被看作吴下阿蒙，后努力学习改变形象。比喻人有显著进步。",
+      "usage_example": "鼓励学习改变命运。",
+      "difficulty": "中级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "学习",
+        "改变"
+      ],
+      "id": "P1-0085",
+      "scenes": [
+        "演讲开场",
+        "职场谈吐",
+        "辩论反驳"
+      ]
+    },
+    {
+      "category": "典故与成语",
+      "subcategory": "典故",
+      "original": "乐不思蜀",
+      "source": "《三国志·蜀书·后主传》",
+      "meaning": "刘禅被俘后表示乐不思蜀。比喻乐而忘返或忘本。",
+      "usage_example": "批评安于现状、忘记根本。",
+      "difficulty": "初级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "忘本",
+        "安逸"
+      ],
+      "id": "P1-0086",
+      "scenes": [
+        "职场谈吐",
+        "辩论反驳"
+      ]
+    },
+    {
+      "category": "典故与成语",
+      "subcategory": "典故",
+      "original": "鞠躬尽瘁，死而后已",
+      "source": "诸葛亮《后出师表》",
+      "meaning": "勤勤恳恳，竭尽全力，直到死才停止。",
+      "usage_example": "表达无限忠诚与奉献。",
+      "difficulty": "初级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "忠诚",
+        "奉献"
+      ],
+      "id": "P1-0087",
+      "scenes": [
+        "职场谈吐",
+        "辩论反驳"
+      ]
+    },
+    {
+      "category": "典故与成语",
+      "subcategory": "典故",
+      "original": "初出茅庐",
+      "source": "《三国演义》",
+      "meaning": "诸葛亮初出茅庐就立下大功。比喻刚进入社会或工作，缺乏经验。",
+      "usage_example": "描述新手起步阶段。",
+      "difficulty": "初级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "新手",
+        "起步"
+      ],
+      "id": "P1-0088",
+      "scenes": [
+        "职场谈吐",
+        "辩论反驳"
+      ]
+    },
+    {
+      "category": "典故与成语",
+      "subcategory": "典故",
+      "original": "空城计",
+      "source": "《三国演义》",
+      "meaning": "诸葛亮在空城中镇定抚琴，吓退司马懿。比喻在危急时用疑兵之计。",
+      "usage_example": "描述以虚制实、心理战术。",
+      "difficulty": "中级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "智谋",
+        "危机"
+      ],
+      "id": "P1-0089",
+      "scenes": [
+        "职场谈吐",
+        "辩论反驳"
+      ]
+    },
+    {
+      "category": "典故与成语",
+      "subcategory": "典故",
+      "original": "草船借箭",
+      "source": "《三国演义》",
+      "meaning": "诸葛亮用草船借得十万箭。比喻借助对方力量达到目的。",
+      "usage_example": "强调巧妙借助外部资源。",
+      "difficulty": "初级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "智谋",
+        "借力"
+      ],
+      "id": "P1-0090",
+      "scenes": [
+        "职场谈吐",
+        "辩论反驳"
+      ]
+    },
+    {
+      "category": "典故与成语",
+      "subcategory": "典故",
+      "original": "桃园结义",
+      "source": "《三国演义》",
+      "meaning": "刘备、关羽、张飞结为兄弟。比喻结拜兄弟或生死与共的情谊。",
+      "usage_example": "表达深厚情谊与盟约。",
+      "difficulty": "初级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "友情",
+        "盟约"
+      ],
+      "id": "P1-0091",
+      "scenes": [
+        "演讲结尾",
+        "社交闲谈",
+        "职场谈吐",
+        "辩论反驳"
+      ]
+    },
+    {
+      "category": "典故与成语",
+      "subcategory": "典故",
+      "original": "三顾频烦天下计，两朝开济老臣心。",
+      "source": "杜甫《蜀相》",
+      "meaning": "刘备三顾诸葛亮，诸葛亮辅佐两朝。",
+      "usage_example": "赞誉忠诚与知遇之恩。",
+      "difficulty": "中级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "忠诚",
+        "知遇"
+      ],
+      "id": "P1-0092",
+      "scenes": [
+        "职场谈吐",
+        "辩论反驳"
+      ]
+    },
+    {
+      "category": "典故与成语",
+      "subcategory": "典故",
+      "original": "塞翁失马，焉知非福",
+      "source": "《淮南子·人间训》",
+      "meaning": "边塞老人丢马却引出福祸相依的故事。比喻坏事可能变成好事。",
+      "usage_example": "表达祸福相依、辩证看待得失。",
+      "difficulty": "初级",
+      "ability_tags": [
+        "素材储备力",
+        "结构组织力"
+      ],
+      "themes": [
+        "辩证",
+        "得失"
+      ],
+      "id": "P1-0093",
+      "scenes": [
+        "职场谈吐",
+        "辩论反驳"
+      ]
+    },
+    {
+      "category": "典故与成语",
+      "subcategory": "典故",
+      "original": "螳臂当车",
+      "source": "《庄子·人间世》",
+      "meaning": "螳螂用臂挡车，不自量力。比喻以弱抗强，必然失败。",
+      "usage_example": "警告不自量力的行为。",
+      "difficulty": "初级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "自量",
+        "警告"
+      ],
+      "id": "P1-0094",
+      "scenes": [
+        "职场谈吐",
+        "辩论反驳"
+      ]
+    },
+    {
+      "category": "典故与成语",
+      "subcategory": "典故",
+      "original": "井底之蛙",
+      "source": "《庄子·秋水》",
+      "meaning": "井底青蛙不知大海广阔。比喻见识短浅。",
+      "usage_example": "批评狭隘视野。",
+      "difficulty": "初级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "见识",
+        "局限"
+      ],
+      "id": "P1-0095",
+      "scenes": [
+        "演讲开场",
+        "职场谈吐",
+        "辩论反驳"
+      ]
+    },
+    {
+      "category": "典故与成语",
+      "subcategory": "典故",
+      "original": "庄周梦蝶",
+      "source": "《庄子·齐物论》",
+      "meaning": "庄子梦见自己变成蝴蝶，醒后分不清梦与现实。比喻物我两忘、人生如梦。",
+      "usage_example": "表达对真实与虚幻的哲学思考。",
+      "difficulty": "高级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "哲学",
+        "虚实"
+      ],
+      "id": "P1-0096",
+      "scenes": [
+        "职场谈吐",
+        "辩论反驳"
+      ]
+    },
+    {
+      "category": "典故与成语",
+      "subcategory": "典故",
+      "original": "庖丁解牛",
+      "source": "《庄子·养生主》",
+      "meaning": "庖丁解牛技艺高超，游刃有余。比喻技艺纯熟，做事得心应手。",
+      "usage_example": "形容专业精湛与顺势而为。",
+      "difficulty": "中级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "技艺",
+        "顺势"
+      ],
+      "id": "P1-0097",
+      "scenes": [
+        "职场谈吐",
+        "辩论反驳"
+      ]
+    },
+    {
+      "category": "典故与成语",
+      "subcategory": "典故",
+      "original": "朝三暮四",
+      "source": "《庄子·齐物论》",
+      "meaning": "养猴人早上给三颗晚上给四颗，猴子先怒后喜。比喻反复无常或只改名目不改实质。",
+      "usage_example": "批评出尔反尔或形式主义。",
+      "difficulty": "初级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "反复",
+        "实质"
+      ],
+      "id": "P1-0098",
+      "scenes": [
+        "职场谈吐",
+        "辩论反驳"
+      ]
+    },
+    {
+      "category": "典故与成语",
+      "subcategory": "典故",
+      "original": "相濡以沫",
+      "source": "《庄子·大宗师》",
+      "meaning": "鱼在干涸中互相湿润，不如相忘于江湖。比喻困境中互相帮助，也含更高境界的自由。",
+      "usage_example": "表达患难真情，或更高层次的独立。",
+      "difficulty": "中级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "患难",
+        "自由"
+      ],
+      "id": "P1-0099",
+      "scenes": [
+        "演讲开场",
+        "职场谈吐",
+        "自我介绍",
+        "辩论反驳"
+      ]
+    },
+    {
+      "category": "典故与成语",
+      "subcategory": "典故",
+      "original": "鹏程万里",
+      "source": "《庄子·逍遥游》",
+      "meaning": "大鹏展翅飞向南方，行程万里。比喻前程远大。",
+      "usage_example": "祝福或表达远大志向。",
+      "difficulty": "初级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "志向",
+        "前程"
+      ],
+      "id": "P1-0100",
+      "scenes": [
+        "演讲开场",
+        "激励鼓舞",
+        "职场谈吐",
+        "辩论反驳"
+      ]
+    },
+    {
+      "category": "典故与成语",
+      "subcategory": "典故",
+      "original": "邯郸学步",
+      "source": "《庄子·秋水》",
+      "meaning": "燕国人到邯郸学走路，没学会反而忘了原来的走法。比喻盲目模仿，失去本真。",
+      "usage_example": "警告盲目跟风、丢失自我。",
+      "difficulty": "初级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "模仿",
+        "本真"
+      ],
+      "id": "P1-0101",
+      "scenes": [
+        "演讲开场",
+        "职场谈吐",
+        "自我介绍",
+        "辩论反驳"
+      ]
+    },
+    {
+      "category": "典故与成语",
+      "subcategory": "典故",
+      "original": "刻舟求剑",
+      "source": "《吕氏春秋·察今》",
+      "meaning": "楚人丢剑后在船上刻记号，上岸后按记号找剑。比喻拘泥不知变通。",
+      "usage_example": "批评死板、不知时变。",
+      "difficulty": "初级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "变通",
+        "教条"
+      ],
+      "id": "P1-0102",
+      "scenes": [
+        "职场谈吐",
+        "辩论反驳"
+      ]
+    },
+    {
+      "category": "典故与成语",
+      "subcategory": "典故",
+      "original": "掩耳盗铃",
+      "source": "《吕氏春秋·自知》",
+      "meaning": "偷铃怕人听见就捂自己耳朵。比喻自欺欺人。",
+      "usage_example": "批评自欺行为。",
+      "difficulty": "初级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "自欺"
+      ],
+      "id": "P1-0103",
+      "scenes": [
+        "职场谈吐",
+        "辩论反驳"
+      ]
+    },
+    {
+      "category": "典故与成语",
+      "subcategory": "典故",
+      "original": "滥竽充数",
+      "source": "《韩非子·内储说上》",
+      "meaning": "南郭先生不会吹竽却混在乐队中。比喻没有真才实学而混充。",
+      "usage_example": "批评滥竽充数或强调真才实学。",
+      "difficulty": "初级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "真才",
+        "混充"
+      ],
+      "id": "P1-0104",
+      "scenes": [
+        "职场谈吐",
+        "辩论反驳"
+      ]
+    },
+    {
+      "category": "典故与成语",
+      "subcategory": "典故",
+      "original": "买椟还珠",
+      "source": "《韩非子·外储说左上》",
+      "meaning": "买了漂亮盒子却退回珍珠。比喻取舍不当，舍本逐末。",
+      "usage_example": "批评只重外表、忽略实质。",
+      "difficulty": "初级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "取舍",
+        "本质"
+      ],
+      "id": "P1-0105",
+      "scenes": [
+        "职场谈吐",
+        "辩论反驳"
+      ]
+    },
+    {
+      "category": "典故与成语",
+      "subcategory": "典故",
+      "original": "守株待兔",
+      "source": "《韩非子·五蠹》",
+      "meaning": "农夫等着兔子再撞树桩。比喻不主动努力，坐等意外收获。",
+      "usage_example": "批评侥幸心理与不劳而获。",
+      "difficulty": "初级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "主动",
+        "侥幸"
+      ],
+      "id": "P1-0106",
+      "scenes": [
+        "职场谈吐",
+        "辩论反驳"
+      ]
+    },
+    {
+      "category": "典故与成语",
+      "subcategory": "典故",
+      "original": "自相矛盾",
+      "source": "《韩非子·难一》",
+      "meaning": "卖矛又卖盾，声称矛最利盾最坚，无法自圆其说。比喻言行前后抵触。",
+      "usage_example": "指出逻辑矛盾。",
+      "difficulty": "初级",
+      "ability_tags": [
+        "素材储备力",
+        "结构组织力"
+      ],
+      "themes": [
+        "逻辑",
+        "矛盾"
+      ],
+      "id": "P1-0107",
+      "scenes": [
+        "职场谈吐",
+        "辩论反驳"
+      ]
+    },
+    {
+      "category": "典故与成语",
+      "subcategory": "典故",
+      "original": "画蛇添足",
+      "source": "《战国策·齐策二》",
+      "meaning": "画蛇比赛中有人画完后添脚，结果输掉。比喻多此一举，反而坏事。",
+      "usage_example": "警告过度发挥、弄巧成拙。",
+      "difficulty": "初级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "适度",
+        "画蛇添足"
+      ],
+      "id": "P1-0108",
+      "scenes": [
+        "职场谈吐",
+        "辩论反驳"
+      ]
+    },
+    {
+      "category": "典故与成语",
+      "subcategory": "典故",
+      "original": "狐假虎威",
+      "source": "《战国策·楚策一》",
+      "meaning": "狐狸借老虎威风吓唬百兽。比喻借别人势力欺压人。",
+      "usage_example": "批评仗势欺人。",
+      "difficulty": "初级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "仗势",
+        "虚张"
+      ],
+      "id": "P1-0109",
+      "scenes": [
+        "职场谈吐",
+        "辩论反驳"
+      ]
+    },
+    {
+      "category": "典故与成语",
+      "subcategory": "典故",
+      "original": "南辕北辙",
+      "source": "《战国策·魏策四》",
+      "meaning": "要去南方却往北走。比喻行动与目的相反。",
+      "usage_example": "指出方向错误。",
+      "difficulty": "初级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "方向",
+        "目标"
+      ],
+      "id": "P1-0110",
+      "scenes": [
+        "职场谈吐",
+        "辩论反驳"
+      ]
+    },
+    {
+      "category": "典故与成语",
+      "subcategory": "典故",
+      "original": "惊弓之鸟",
+      "source": "《战国策·楚策四》",
+      "meaning": "被弓箭吓怕的鸟，听到弦响就掉下来。比喻受过惊吓后稍有动静就害怕。",
+      "usage_example": "形容心理创伤导致的过度敏感。",
+      "difficulty": "初级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "心理",
+        "恐惧"
+      ],
+      "id": "P1-0111",
+      "scenes": [
+        "职场谈吐",
+        "辩论反驳"
+      ]
+    },
+    {
+      "category": "典故与成语",
+      "subcategory": "典故",
+      "original": "鹬蚌相争，渔翁得利",
+      "source": "《战国策·燕策二》",
+      "meaning": "鹬和蚌互相争持，渔人轻易得利。比喻双方争斗，第三者得利。",
+      "usage_example": "警告内斗让外人受益。",
+      "difficulty": "初级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "内斗",
+        "第三方"
+      ],
+      "id": "P1-0112",
+      "scenes": [
+        "职场谈吐",
+        "辩论反驳"
+      ]
+    },
+    {
+      "category": "典故与成语",
+      "subcategory": "典故",
+      "original": "卧榻之侧，岂容他人鼾睡",
+      "source": "《宋史·太祖本纪》相关典故",
+      "meaning": "宋太祖不愿别人在自己床边睡觉。比喻自己的势力范围不容他人侵占。",
+      "usage_example": "表达对核心利益的坚决维护。",
+      "difficulty": "中级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "利益",
+        "底线"
+      ],
+      "id": "P1-0113",
+      "scenes": [
+        "职场谈吐",
+        "辩论反驳"
+      ]
+    },
+    {
+      "category": "典故与成语",
+      "subcategory": "典故",
+      "original": "精忠报国",
+      "source": "岳飞相关史实与传说",
+      "meaning": "岳母刺字，岳飞精忠报国。比喻无限忠诚于国家。",
+      "usage_example": "表达爱国与忠诚。",
+      "difficulty": "初级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "爱国",
+        "忠诚"
+      ],
+      "id": "P1-0114",
+      "scenes": [
+        "演讲开场",
+        "激励鼓舞",
+        "职场谈吐",
+        "辩论反驳"
+      ]
+    },
+    {
+      "category": "典故与成语",
+      "subcategory": "典故",
+      "original": "悬梁刺股",
+      "source": "《战国策》与《汉书》相关",
+      "meaning": "孙敬悬梁、苏秦刺股苦读。比喻发奋读书。",
+      "usage_example": "鼓励刻苦学习。",
+      "difficulty": "初级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "勤奋",
+        "学习"
+      ],
+      "id": "P1-0115",
+      "scenes": [
+        "演讲开场",
+        "职场谈吐",
+        "辩论反驳"
+      ]
+    },
+    {
+      "category": "典故与成语",
+      "subcategory": "典故",
+      "original": "凿壁偷光",
+      "source": "《西京杂记》",
+      "meaning": "匡衡凿壁借邻居灯光读书。比喻勤学苦读。",
+      "usage_example": "鼓励克服困难坚持学习。",
+      "difficulty": "初级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "勤奋",
+        "学习"
+      ],
+      "id": "P1-0116",
+      "scenes": [
+        "演讲开场",
+        "职场谈吐",
+        "辩论反驳"
+      ]
+    },
+    {
+      "category": "典故与成语",
+      "subcategory": "典故",
+      "original": "囊萤映雪",
+      "source": "《晋书》相关",
+      "meaning": "车胤囊萤、孙康映雪苦读。比喻家境贫寒仍坚持读书。",
+      "usage_example": "赞扬贫寒中的求学精神。",
+      "difficulty": "中级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "勤奋",
+        "逆境"
+      ],
+      "id": "P1-0117",
+      "scenes": [
+        "演讲开场",
+        "激励鼓舞",
+        "职场谈吐",
+        "辩论反驳"
+      ]
+    },
+    {
+      "category": "典故与成语",
+      "subcategory": "典故",
+      "original": "程门立雪",
+      "source": "《宋史·杨时传》",
+      "meaning": "杨时在雪中等候程颐。比喻尊师重道。",
+      "usage_example": "表达对师长的恭敬。",
+      "difficulty": "初级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "尊师",
+        "恭敬"
+      ],
+      "id": "P1-0118",
+      "scenes": [
+        "职场谈吐",
+        "辩论反驳"
+      ]
+    },
+    {
+      "category": "典故与成语",
+      "subcategory": "典故",
+      "original": "倒屣相迎",
+      "source": "《三国志·魏书·王粲传》",
+      "meaning": "蔡邕听说王粲来，急忙倒穿鞋子去迎接。比喻热情迎接宾客或贤才。",
+      "usage_example": "表达对来客的极高礼遇。",
+      "difficulty": "中级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "礼遇",
+        "热情"
+      ],
+      "id": "P1-0119",
+      "scenes": [
+        "职场谈吐",
+        "辩论反驳"
+      ]
+    },
+    {
+      "category": "典故与成语",
+      "subcategory": "典故",
+      "original": "程门立雪",
+      "source": "《宋史·杨时传》",
+      "meaning": "杨时与游酢在雪中侍立程颐门外。比喻尊师重道，恭敬求教。",
+      "usage_example": "强调对老师的尊重与求学态度。",
+      "difficulty": "初级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "尊师",
+        "求学"
+      ],
+      "id": "P1-0120",
+      "scenes": [
+        "职场谈吐",
+        "辩论反驳"
+      ]
+    },
+    {
+      "category": "诸子百家与经典语录",
+      "subcategory": "诸子",
+      "original": "己所不欲，勿施于人。",
+      "source": "《论语·颜渊》",
+      "meaning": "自己不愿意的，不要强加给别人。",
+      "usage_example": "强调换位思考与基本道德原则。",
+      "difficulty": "初级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "仁恕",
+        "道德"
+      ],
+      "id": "P1-0121",
+      "scenes": [
+        "演讲开场",
+        "职场谈吐",
+        "自我介绍",
+        "辩论反驳"
+      ]
+    },
+    {
+      "category": "诸子百家与经典语录",
+      "subcategory": "诸子",
+      "original": "三人行，必有我师焉。择其善者而从之，其不善者而改之。",
+      "source": "《论语·述而》",
+      "meaning": "多人同行，必有可学习之处。",
+      "usage_example": "提倡开放学习与自我反省。",
+      "difficulty": "初级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "学习",
+        "谦虚"
+      ],
+      "id": "P1-0122",
+      "scenes": [
+        "演讲开场",
+        "职场谈吐",
+        "辩论反驳"
+      ]
+    },
+    {
+      "category": "诸子百家与经典语录",
+      "subcategory": "诸子",
+      "original": "学而不思则罔，思而不学则殆。",
+      "source": "《论语·为政》",
+      "meaning": "只学不思会迷茫，只思不学会危险。",
+      "usage_example": "强调学思结合。",
+      "difficulty": "初级",
+      "ability_tags": [
+        "结构组织力"
+      ],
+      "themes": [
+        "学习方法"
+      ],
+      "id": "P1-0123",
+      "scenes": [
+        "演讲开场",
+        "职场谈吐",
+        "辩论反驳"
+      ]
+    },
+    {
+      "category": "诸子百家与经典语录",
+      "subcategory": "诸子",
+      "original": "知之为知之，不知为不知，是知也。",
+      "source": "《论语·为政》",
+      "meaning": "知道就是知道，不知道就承认不知道，这才是真知。",
+      "usage_example": "强调诚实面对自己的认知边界。",
+      "difficulty": "初级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "诚实",
+        "认知"
+      ],
+      "id": "P1-0124",
+      "scenes": [
+        "演讲开场",
+        "职场谈吐",
+        "辩论反驳"
+      ]
+    },
+    {
+      "category": "诸子百家与经典语录",
+      "subcategory": "诸子",
+      "original": "君子坦荡荡，小人长戚戚。",
+      "source": "《论语·述而》",
+      "meaning": "君子心胸开阔，小人患得患失。",
+      "usage_example": "对比格局与心态。",
+      "difficulty": "初级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "格局",
+        "心态"
+      ],
+      "id": "P1-0125",
+      "scenes": [
+        "演讲开场",
+        "职场谈吐",
+        "辩论反驳"
+      ]
+    },
+    {
+      "category": "诸子百家与经典语录",
+      "subcategory": "诸子",
+      "original": "见贤思齐焉，见不贤而内自省也。",
+      "source": "《论语·里仁》",
+      "meaning": "见贤人就向他看齐，见不贤就反省自己。",
+      "usage_example": "强调向榜样学习与自我反省。",
+      "difficulty": "初级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "修身",
+        "反省"
+      ],
+      "id": "P1-0126",
+      "scenes": [
+        "演讲开场",
+        "职场谈吐",
+        "辩论反驳"
+      ]
+    },
+    {
+      "category": "诸子百家与经典语录",
+      "subcategory": "诸子",
+      "original": "吾日三省吾身：为人谋而不忠乎？与朋友交而不信乎？传不习乎？",
+      "source": "《论语·学而》",
+      "meaning": "每天多次反省自己：做事是否尽心？交友是否诚信？学习是否复习？",
+      "usage_example": "提供具体的自我反省框架。",
+      "difficulty": "中级",
+      "ability_tags": [
+        "结构组织力"
+      ],
+      "themes": [
+        "反省",
+        "修身"
+      ],
+      "id": "P1-0127",
+      "scenes": [
+        "演讲开场",
+        "职场谈吐",
+        "辩论反驳"
+      ]
+    },
+    {
+      "category": "诸子百家与经典语录",
+      "subcategory": "诸子",
+      "original": "人而无信，不知其可也。",
+      "source": "《论语·为政》",
+      "meaning": "人如果没有信用，不知道他还能做什么。",
+      "usage_example": "强调信用的根本重要性。",
+      "difficulty": "初级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "诚信"
+      ],
+      "id": "P1-0128",
+      "scenes": [
+        "演讲开场",
+        "职场谈吐",
+        "自我介绍",
+        "辩论反驳"
+      ]
+    },
+    {
+      "category": "诸子百家与经典语录",
+      "subcategory": "诸子",
+      "original": "工欲善其事，必先利其器。",
+      "source": "《论语·卫灵公》",
+      "meaning": "要做好工作，必须先把工具磨利。",
+      "usage_example": "强调准备工作与工具/能力的重要性。",
+      "difficulty": "初级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "准备",
+        "工具"
+      ],
+      "id": "P1-0129",
+      "scenes": [
+        "演讲开场",
+        "职场谈吐",
+        "辩论反驳"
+      ]
+    },
+    {
+      "category": "诸子百家与经典语录",
+      "subcategory": "诸子",
+      "original": "君子和而不同，小人同而不和。",
+      "source": "《论语·子路》",
+      "meaning": "君子追求和谐但保持差异，小人表面一致却内心不和。",
+      "usage_example": "阐述真正的和谐与多样性。",
+      "difficulty": "中级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "和谐",
+        "多样性"
+      ],
+      "id": "P1-0130",
+      "scenes": [
+        "演讲开场",
+        "职场谈吐",
+        "辩论反驳"
+      ]
+    },
+    {
+      "category": "诸子百家与经典语录",
+      "subcategory": "诸子",
+      "original": "士不可以不弘毅，任重而道远。",
+      "source": "《论语·泰伯》",
+      "meaning": "士人必须刚强而有毅力，因为责任重大、道路遥远。",
+      "usage_example": "强调担当与坚韧。",
+      "difficulty": "中级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "担当",
+        "坚韧"
+      ],
+      "id": "P1-0131",
+      "scenes": [
+        "演讲开场",
+        "职场谈吐",
+        "自我介绍",
+        "辩论反驳"
+      ]
+    },
+    {
+      "category": "诸子百家与经典语录",
+      "subcategory": "诸子",
+      "original": "岁寒，然后知松柏之后凋也。",
+      "source": "《论语·子罕》",
+      "meaning": "天气寒冷才知道松柏最后凋零。",
+      "usage_example": "比喻困境中才显出真正品格。",
+      "difficulty": "初级",
+      "ability_tags": [
+        "素材储备力",
+        "修辞表现力"
+      ],
+      "themes": [
+        "品格",
+        "困境"
+      ],
+      "id": "P1-0132",
+      "scenes": [
+        "演讲开场",
+        "职场谈吐",
+        "辩论反驳"
+      ]
+    },
+    {
+      "category": "诸子百家与经典语录",
+      "subcategory": "诸子",
+      "original": "知者乐水，仁者乐山。",
+      "source": "《论语·雍也》",
+      "meaning": "智者喜欢水，仁者喜欢山。",
+      "usage_example": "用自然象征不同人格偏好。",
+      "difficulty": "中级",
+      "ability_tags": [
+        "修辞表现力"
+      ],
+      "themes": [
+        "人格",
+        "自然"
+      ],
+      "id": "P1-0133",
+      "scenes": [
+        "演讲开场",
+        "职场谈吐",
+        "辩论反驳"
+      ]
+    },
+    {
+      "category": "诸子百家与经典语录",
+      "subcategory": "诸子",
+      "original": "富贵不能淫，贫贱不能移，威武不能屈，此之谓大丈夫。",
+      "source": "《孟子·滕文公下》",
+      "meaning": "富贵不迷乱，贫贱不改变，威武不屈服，这才是大丈夫。",
+      "usage_example": "定义真正的人格力量。",
+      "difficulty": "初级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "人格",
+        "气节"
+      ],
+      "id": "P1-0134",
+      "scenes": [
+        "演讲开场",
+        "激励鼓舞",
+        "职场谈吐",
+        "辩论反驳"
+      ]
+    },
+    {
+      "category": "诸子百家与经典语录",
+      "subcategory": "诸子",
+      "original": "天将降大任于是人也，必先苦其心志，劳其筋骨，饿其体肤，空乏其身，行拂乱其所为，所以动心忍性，曾益其所不能。",
+      "source": "《孟子·告子下》",
+      "meaning": "天要把重任交给某人，必先让他受苦磨炼。",
+      "usage_example": "阐述逆境对成长的意义。",
+      "difficulty": "中级",
+      "ability_tags": [
+        "结构组织力",
+        "素材储备力"
+      ],
+      "themes": [
+        "逆境",
+        "成长"
+      ],
+      "id": "P1-0135",
+      "scenes": [
+        "演讲开场",
+        "激励鼓舞",
+        "职场谈吐",
+        "辩论反驳"
+      ]
+    },
+    {
+      "category": "诸子百家与经典语录",
+      "subcategory": "诸子",
+      "original": "生于忧患，死于安乐。",
+      "source": "《孟子·告子下》",
+      "meaning": "忧患使人生存发展，安乐使人萎靡死亡。",
+      "usage_example": "强调忧患意识的重要性。",
+      "difficulty": "初级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "忧患",
+        "安乐"
+      ],
+      "id": "P1-0136",
+      "scenes": [
+        "演讲开场",
+        "职场谈吐",
+        "辩论反驳"
+      ]
+    },
+    {
+      "category": "诸子百家与经典语录",
+      "subcategory": "诸子",
+      "original": "得道者多助，失道者寡助。",
+      "source": "《孟子·公孙丑下》",
+      "meaning": "符合道义的人得到帮助多，违背道义的人孤立。",
+      "usage_example": "强调道义与人心向背。",
+      "difficulty": "初级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "道义",
+        "人心"
+      ],
+      "id": "P1-0137",
+      "scenes": [
+        "演讲开场",
+        "职场谈吐",
+        "辩论反驳"
+      ]
+    },
+    {
+      "category": "诸子百家与经典语录",
+      "subcategory": "诸子",
+      "original": "老吾老，以及人之老；幼吾幼，以及人之幼。",
+      "source": "《孟子·梁惠王上》",
+      "meaning": "尊敬自己的长辈，并推及到别人的长辈；爱护自己的孩子，并推及到别人的孩子。",
+      "usage_example": "阐述推己及人的仁爱。",
+      "difficulty": "初级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "仁爱",
+        "推己及人"
+      ],
+      "id": "P1-0138",
+      "scenes": [
+        "演讲开场",
+        "职场谈吐",
+        "自我介绍",
+        "辩论反驳"
+      ]
+    },
+    {
+      "category": "诸子百家与经典语录",
+      "subcategory": "诸子",
+      "original": "穷则独善其身，达则兼济天下。",
+      "source": "《孟子·尽心上》",
+      "meaning": "不得志时修养自身，得志时造福天下。",
+      "usage_example": "阐述不同境遇下的责任与选择。",
+      "difficulty": "中级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "责任",
+        "境界"
+      ],
+      "id": "P1-0139",
+      "scenes": [
+        "演讲开场",
+        "职场谈吐",
+        "自我介绍",
+        "辩论反驳"
+      ]
+    },
+    {
+      "category": "诸子百家与经典语录",
+      "subcategory": "诸子",
+      "original": "尽信书，则不如无书。",
+      "source": "《孟子·尽心下》",
+      "meaning": "完全迷信书本，不如没有书。",
+      "usage_example": "强调独立思考，不盲从权威。",
+      "difficulty": "初级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "独立思考"
+      ],
+      "id": "P1-0140",
+      "scenes": [
+        "演讲开场",
+        "职场谈吐",
+        "辩论反驳"
+      ]
+    },
+    {
+      "category": "诸子百家与经典语录",
+      "subcategory": "诸子",
+      "original": "天时不如地利，地利不如人和。",
+      "source": "《孟子·公孙丑下》",
+      "meaning": "时机不如地理，地理不如人心团结。",
+      "usage_example": "强调团队与人心的决定性作用。",
+      "difficulty": "初级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "团队",
+        "人和"
+      ],
+      "id": "P1-0141",
+      "scenes": [
+        "演讲开场",
+        "职场谈吐",
+        "辩论反驳"
+      ]
+    },
+    {
+      "category": "诸子百家与经典语录",
+      "subcategory": "诸子",
+      "original": "道可道，非常道；名可名，非常名。",
+      "source": "《道德经》第一章",
+      "meaning": "可以说出来的道，不是永恒的道；可以命名的名，不是永恒的名。",
+      "usage_example": "提醒语言与概念的局限性。",
+      "difficulty": "高级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "哲学",
+        "语言局限"
+      ],
+      "id": "P1-0142",
+      "scenes": [
+        "演讲开场",
+        "职场谈吐",
+        "辩论反驳"
+      ]
+    },
+    {
+      "category": "诸子百家与经典语录",
+      "subcategory": "诸子",
+      "original": "上善若水。水善利万物而不争。",
+      "source": "《道德经》第八章",
+      "meaning": "最高的善像水一样，滋养万物却不争夺。",
+      "usage_example": "阐述柔弱、利他与不争的智慧。",
+      "difficulty": "中级",
+      "ability_tags": [
+        "素材储备力",
+        "修辞表现力"
+      ],
+      "themes": [
+        "柔弱",
+        "利他"
+      ],
+      "id": "P1-0143",
+      "scenes": [
+        "演讲开场",
+        "职场谈吐",
+        "辩论反驳"
+      ]
+    },
+    {
+      "category": "诸子百家与经典语录",
+      "subcategory": "诸子",
+      "original": "知人者智，自知者明。胜人者有力，自胜者强。",
+      "source": "《道德经》第三十三章",
+      "meaning": "了解别人是智慧，了解自己是清明；战胜别人是有力，战胜自己是真正的强。",
+      "usage_example": "强调自我认知与自我超越。",
+      "difficulty": "中级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "自知",
+        "自胜"
+      ],
+      "id": "P1-0144",
+      "scenes": [
+        "演讲开场",
+        "职场谈吐",
+        "辩论反驳"
+      ]
+    },
+    {
+      "category": "诸子百家与经典语录",
+      "subcategory": "诸子",
+      "original": "千里之行，始于足下。",
+      "source": "《道德经》第六十四章",
+      "meaning": "千里远行从脚下第一步开始。",
+      "usage_example": "强调行动与积累的重要性。",
+      "difficulty": "初级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "行动",
+        "积累"
+      ],
+      "id": "P1-0145",
+      "scenes": [
+        "演讲开场",
+        "职场谈吐",
+        "辩论反驳"
+      ]
+    },
+    {
+      "category": "诸子百家与经典语录",
+      "subcategory": "诸子",
+      "original": "合抱之木，生于毫末；九层之台，起于累土；千里之行，始于足下。",
+      "source": "《道德经》第六十四章",
+      "meaning": "大树从细芽长成，高台从泥土堆起。",
+      "usage_example": "强调凡事从小处做起。",
+      "difficulty": "初级",
+      "ability_tags": [
+        "结构组织力"
+      ],
+      "themes": [
+        "积累",
+        "基础"
+      ],
+      "id": "P1-0146",
+      "scenes": [
+        "演讲开场",
+        "职场谈吐",
+        "辩论反驳"
+      ]
+    },
+    {
+      "category": "诸子百家与经典语录",
+      "subcategory": "诸子",
+      "original": "天下难事，必作于易；天下大事，必作于细。",
+      "source": "《道德经》第六十三章",
+      "meaning": "难事从易处着手，大事从细处着手。",
+      "usage_example": "提供处理复杂问题的方法论。",
+      "difficulty": "中级",
+      "ability_tags": [
+        "结构组织力"
+      ],
+      "themes": [
+        "方法论",
+        "细节"
+      ],
+      "id": "P1-0147",
+      "scenes": [
+        "演讲开场",
+        "职场谈吐",
+        "辩论反驳"
+      ]
+    },
+    {
+      "category": "诸子百家与经典语录",
+      "subcategory": "诸子",
+      "original": "大直若屈，大巧若拙，大辩若讷。",
+      "source": "《道德经》第四十五章",
+      "meaning": "最正直的好像弯曲，最灵巧的好像笨拙，最有口才的好像不善言辞。",
+      "usage_example": "阐述真正的力量往往不外显。",
+      "difficulty": "高级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "含蓄",
+        "真才"
+      ],
+      "id": "P1-0148",
+      "scenes": [
+        "演讲开场",
+        "职场谈吐",
+        "辩论反驳"
+      ]
+    },
+    {
+      "category": "诸子百家与经典语录",
+      "subcategory": "诸子",
+      "original": "吾生也有涯，而知也无涯。以有涯随无涯，殆已。",
+      "source": "《庄子·养生主》",
+      "meaning": "生命有限，知识无限，用有限追求无限是危险的。",
+      "usage_example": "提醒专注与取舍的智慧。",
+      "difficulty": "中级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "取舍",
+        "专注"
+      ],
+      "id": "P1-0149",
+      "scenes": [
+        "演讲开场",
+        "职场谈吐",
+        "辩论反驳"
+      ]
+    },
+    {
+      "category": "诸子百家与经典语录",
+      "subcategory": "诸子",
+      "original": "君子之交淡若水，小人之交甘若醴。",
+      "source": "《庄子·山木》",
+      "meaning": "君子交情淡如水，小人交情甜如酒。",
+      "usage_example": "阐述真正友谊的平淡与持久。",
+      "difficulty": "初级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "友情",
+        "本质"
+      ],
+      "id": "P1-0150",
+      "scenes": [
+        "演讲开场",
+        "演讲结尾",
+        "社交闲谈",
+        "职场谈吐",
+        "辩论反驳"
+      ]
+    },
+    {
+      "category": "诸子百家与经典语录",
+      "subcategory": "诸子",
+      "original": "人生天地之间，若白驹之过隙，忽然而已。",
+      "source": "《庄子·知北游》",
+      "meaning": "人生在天地间像白马过缝隙一样短暂。",
+      "usage_example": "表达对生命短暂的深刻体认。",
+      "difficulty": "中级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "时间",
+        "生命"
+      ],
+      "id": "P1-0151",
+      "scenes": [
+        "演讲开场",
+        "职场谈吐",
+        "辩论反驳"
+      ]
+    },
+    {
+      "category": "诸子百家与经典语录",
+      "subcategory": "诸子",
+      "original": "相忘于江湖。",
+      "source": "《庄子·大宗师》",
+      "meaning": "鱼在江湖中自由相忘，比在干涸中互相湿润更高。",
+      "usage_example": "表达更高境界的自由与独立。",
+      "difficulty": "高级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "自由",
+        "境界"
+      ],
+      "id": "P1-0152",
+      "scenes": [
+        "演讲开场",
+        "职场谈吐",
+        "自我介绍",
+        "辩论反驳"
+      ]
+    },
+    {
+      "category": "诸子百家与经典语录",
+      "subcategory": "诸子",
+      "original": "子非鱼，安知鱼之乐？",
+      "source": "《庄子·秋水》",
+      "meaning": "你不是鱼，怎么知道鱼的快乐？",
+      "usage_example": "讨论认知边界与主观体验。",
+      "difficulty": "高级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "认知",
+        "主观"
+      ],
+      "id": "P1-0153",
+      "scenes": [
+        "演讲开场",
+        "职场谈吐",
+        "辩论反驳"
+      ]
+    },
+    {
+      "category": "诸子百家与经典语录",
+      "subcategory": "诸子",
+      "original": "窃钩者诛，窃国者为诸侯。",
+      "source": "《庄子·胠箧》",
+      "meaning": "偷钩子的被杀，偷国家的却成诸侯。",
+      "usage_example": "批判权力与道德的双重标准。",
+      "difficulty": "高级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "批判",
+        "权力"
+      ],
+      "id": "P1-0154",
+      "scenes": [
+        "演讲开场",
+        "职场谈吐",
+        "辩论反驳"
+      ]
+    },
+    {
+      "category": "诸子百家与经典语录",
+      "subcategory": "诸子",
+      "original": "青，取之于蓝，而青于蓝；冰，水为之，而寒于水。",
+      "source": "《荀子·劝学》",
+      "meaning": "靛青从蓝草提取却比蓝草更青，冰由水成却比水更冷。",
+      "usage_example": "比喻学生可以超越老师，后辈可以超越前辈。",
+      "difficulty": "初级",
+      "ability_tags": [
+        "素材储备力",
+        "修辞表现力"
+      ],
+      "themes": [
+        "超越",
+        "学习"
+      ],
+      "id": "P1-0155",
+      "scenes": [
+        "演讲开场",
+        "职场谈吐",
+        "辩论反驳"
+      ]
+    },
+    {
+      "category": "诸子百家与经典语录",
+      "subcategory": "诸子",
+      "original": "不积跬步，无以至千里；不积小流，无以成江海。",
+      "source": "《荀子·劝学》",
+      "meaning": "不积累小步走不到千里，不积累小流不成江海。",
+      "usage_example": "强调积累的力量。",
+      "difficulty": "初级",
+      "ability_tags": [
+        "结构组织力"
+      ],
+      "themes": [
+        "积累"
+      ],
+      "id": "P1-0156",
+      "scenes": [
+        "演讲开场",
+        "职场谈吐",
+        "辩论反驳"
+      ]
+    },
+    {
+      "category": "诸子百家与经典语录",
+      "subcategory": "诸子",
+      "original": "锲而舍之，朽木不折；锲而不舍，金石可镂。",
+      "source": "《荀子·劝学》",
+      "meaning": "雕刻中途放弃，朽木也折不断；坚持不懈，金石也可雕刻。",
+      "usage_example": "强调坚持的决定性作用。",
+      "difficulty": "初级",
+      "ability_tags": [
+        "素材储备力",
+        "修辞表现力"
+      ],
+      "themes": [
+        "坚持"
+      ],
+      "id": "P1-0157",
+      "scenes": [
+        "演讲开场",
+        "激励鼓舞",
+        "职场谈吐",
+        "辩论反驳"
+      ]
+    },
+    {
+      "category": "诸子百家与经典语录",
+      "subcategory": "诸子",
+      "original": "君子生非异也，善假于物也。",
+      "source": "《荀子·劝学》",
+      "meaning": "君子并非生来与众不同，而是善于借助外物。",
+      "usage_example": "强调工具与借力的智慧。",
+      "difficulty": "中级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "借力",
+        "智慧"
+      ],
+      "id": "P1-0158",
+      "scenes": [
+        "演讲开场",
+        "职场谈吐",
+        "辩论反驳"
+      ]
+    },
+    {
+      "category": "诸子百家与经典语录",
+      "subcategory": "诸子",
+      "original": "蓬生麻中，不扶而直；白沙在涅，与之俱黑。",
+      "source": "《荀子·劝学》",
+      "meaning": "蓬草生在麻中自然直，白沙混在黑土中变黑。",
+      "usage_example": "强调环境对人的深刻影响。",
+      "difficulty": "中级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "环境",
+        "影响"
+      ],
+      "id": "P1-0159",
+      "scenes": [
+        "演讲开场",
+        "职场谈吐",
+        "辩论反驳"
+      ]
+    },
+    {
+      "category": "诸子百家与经典语录",
+      "subcategory": "诸子",
+      "original": "故不积跬步，无以至千里；不积小流，无以成江海。骐骥一跃，不能十步；驽马十驾，功在不舍。",
+      "source": "《荀子·劝学》",
+      "meaning": "积累与坚持比天赋更重要。",
+      "usage_example": "完整阐述积累与坚持的道理。",
+      "difficulty": "中级",
+      "ability_tags": [
+        "结构组织力"
+      ],
+      "themes": [
+        "积累",
+        "坚持"
+      ],
+      "id": "P1-0160",
+      "scenes": [
+        "演讲开场",
+        "激励鼓舞",
+        "职场谈吐",
+        "辩论反驳"
+      ]
+    },
+    {
+      "category": "诸子百家与经典语录",
+      "subcategory": "诸子",
+      "original": "天行有常，不为尧存，不为桀亡。",
+      "source": "《荀子·天论》",
+      "meaning": "自然规律有定数，不因圣君而存在，不因暴君而消失。",
+      "usage_example": "强调客观规律的独立性。",
+      "difficulty": "高级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "规律",
+        "客观"
+      ],
+      "id": "P1-0161",
+      "scenes": [
+        "演讲开场",
+        "职场谈吐",
+        "辩论反驳"
+      ]
+    },
+    {
+      "category": "诸子百家与经典语录",
+      "subcategory": "诸子",
+      "original": "制天命而用之。",
+      "source": "《荀子·天论》",
+      "meaning": "掌握自然规律并加以利用。",
+      "usage_example": "表达人定胜天的积极态度。",
+      "difficulty": "中级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "主观能动",
+        "规律"
+      ],
+      "id": "P1-0162",
+      "scenes": [
+        "演讲开场",
+        "职场谈吐",
+        "辩论反驳"
+      ]
+    },
+    {
+      "category": "诸子百家与经典语录",
+      "subcategory": "诸子",
+      "original": "博学而笃志，切问而近思。",
+      "source": "《论语·子张》",
+      "meaning": "广泛学习并坚定志向，恳切提问并就近思考。",
+      "usage_example": "提供学习与思考的方法论。",
+      "difficulty": "中级",
+      "ability_tags": [
+        "结构组织力"
+      ],
+      "themes": [
+        "学习方法"
+      ],
+      "id": "P1-0163",
+      "scenes": [
+        "演讲开场",
+        "职场谈吐",
+        "辩论反驳"
+      ]
+    },
+    {
+      "category": "诸子百家与经典语录",
+      "subcategory": "诸子",
+      "original": "言必信，行必果。",
+      "source": "《论语·子路》",
+      "meaning": "说话一定守信，行动一定果断。",
+      "usage_example": "强调言行一致与执行力。",
+      "difficulty": "初级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "诚信",
+        "执行"
+      ],
+      "id": "P1-0164",
+      "scenes": [
+        "演讲开场",
+        "职场谈吐",
+        "自我介绍",
+        "辩论反驳"
+      ]
+    },
+    {
+      "category": "诸子百家与经典语录",
+      "subcategory": "诸子",
+      "original": "欲速则不达。",
+      "source": "《论语·子路》",
+      "meaning": "过于求快反而达不到目的。",
+      "usage_example": "提醒急躁的危害。",
+      "difficulty": "初级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "耐心",
+        "节奏"
+      ],
+      "id": "P1-0165",
+      "scenes": [
+        "演讲开场",
+        "职场谈吐",
+        "辩论反驳"
+      ]
+    },
+    {
+      "category": "诸子百家与经典语录",
+      "subcategory": "诸子",
+      "original": "过犹不及。",
+      "source": "《论语·先进》",
+      "meaning": "过分和不足一样不好。",
+      "usage_example": "强调中庸与适度。",
+      "difficulty": "初级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "适度",
+        "中庸"
+      ],
+      "id": "P1-0166",
+      "scenes": [
+        "演讲开场",
+        "职场谈吐",
+        "辩论反驳"
+      ]
+    },
+    {
+      "category": "诸子百家与经典语录",
+      "subcategory": "诸子",
+      "original": "知者不惑，仁者不忧，勇者不惧。",
+      "source": "《论语·子罕》",
+      "meaning": "智者不迷惑，仁者不忧愁，勇者不畏惧。",
+      "usage_example": "定义三种理想人格特质。",
+      "difficulty": "中级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "人格",
+        "品质"
+      ],
+      "id": "P1-0167",
+      "scenes": [
+        "演讲开场",
+        "职场谈吐",
+        "辩论反驳"
+      ]
+    },
+    {
+      "category": "诸子百家与经典语录",
+      "subcategory": "诸子",
+      "original": "三军可夺帅也，匹夫不可夺志也。",
+      "source": "《论语·子罕》",
+      "meaning": "军队可以夺去主帅，普通人却不可夺去志向。",
+      "usage_example": "强调志向的不可动摇。",
+      "difficulty": "初级",
+      "ability_tags": [
+        "素材储备力",
+        "修辞表现力"
+      ],
+      "themes": [
+        "志向",
+        "坚韧"
+      ],
+      "id": "P1-0168",
+      "scenes": [
+        "演讲开场",
+        "激励鼓舞",
+        "职场谈吐",
+        "辩论反驳"
+      ]
+    },
+    {
+      "category": "诸子百家与经典语录",
+      "subcategory": "诸子",
+      "original": "后生可畏，焉知来者之不如今也？",
+      "source": "《论语·子罕》",
+      "meaning": "年轻人值得敬畏，怎知后来者不如现在的人？",
+      "usage_example": "表达对后辈的期待与开放态度。",
+      "difficulty": "初级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "后辈",
+        "开放"
+      ],
+      "id": "P1-0169",
+      "scenes": [
+        "演讲开场",
+        "职场谈吐",
+        "辩论反驳"
+      ]
+    },
+    {
+      "category": "史传与人物对话",
+      "subcategory": "史传",
+      "original": "王侯将相宁有种乎？",
+      "source": "《史记·陈涉世家》",
+      "meaning": "王侯将相难道是天生的贵种吗？",
+      "usage_example": "表达平等与反抗命运的勇气。",
+      "difficulty": "中级",
+      "ability_tags": [
+        "素材储备力",
+        "修辞表现力"
+      ],
+      "themes": [
+        "平等",
+        "反抗"
+      ],
+      "id": "P1-0170",
+      "scenes": [
+        "演讲开场",
+        "激励鼓舞"
+      ]
+    },
+    {
+      "category": "史传与人物对话",
+      "subcategory": "史传",
+      "original": "燕雀安知鸿鹄之志哉！",
+      "source": "《史记·陈涉世家》",
+      "meaning": "小燕子怎么知道大雁的志向！",
+      "usage_example": "表达远大志向不被理解。",
+      "difficulty": "初级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "志向",
+        "格局"
+      ],
+      "id": "P1-0171",
+      "scenes": [
+        "演讲开场",
+        "激励鼓舞",
+        "职场谈吐",
+        "辩论反驳"
+      ]
+    },
+    {
+      "category": "史传与人物对话",
+      "subcategory": "史传",
+      "original": "先国家之急而后私仇。",
+      "source": "《史记·廉颇蔺相如列传》",
+      "meaning": "把国家危急放在私人仇恨之前。",
+      "usage_example": "强调以大局为重。",
+      "difficulty": "中级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "大局",
+        "公心"
+      ],
+      "id": "P1-0172",
+      "scenes": [
+        "演讲开场",
+        "激励鼓舞"
+      ]
+    },
+    {
+      "category": "史传与人物对话",
+      "subcategory": "史传",
+      "original": "士为知己者死，女为悦己者容。",
+      "source": "《战国策·赵策一》",
+      "meaning": "士人为了解自己的人牺牲，女子为欣赏自己的人打扮。",
+      "usage_example": "表达知遇之恩的深厚。",
+      "difficulty": "中级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "知遇",
+        "忠诚"
+      ],
+      "id": "P1-0173",
+      "scenes": [
+        "演讲开场",
+        "激励鼓舞"
+      ]
+    },
+    {
+      "category": "史传与人物对话",
+      "subcategory": "史传",
+      "original": "风萧萧兮易水寒，壮士一去兮不复还。",
+      "source": "《史记·刺客列传》",
+      "meaning": "风声萧萧易水寒冷，壮士这一去不再回来。",
+      "usage_example": "表达悲壮的诀别与决心。",
+      "difficulty": "中级",
+      "ability_tags": [
+        "修辞表现力"
+      ],
+      "themes": [
+        "悲壮",
+        "决心"
+      ],
+      "id": "P1-0174",
+      "scenes": [
+        "演讲开场",
+        "激励鼓舞"
+      ]
+    },
+    {
+      "category": "史传与人物对话",
+      "subcategory": "史传",
+      "original": "力拔山兮气盖世，时不利兮骓不逝。",
+      "source": "项羽《垓下歌》",
+      "meaning": "力能拔山气势盖世，时运不济乌骓马也不再前进。",
+      "usage_example": "表达英雄末路的无奈与豪情。",
+      "difficulty": "中级",
+      "ability_tags": [
+        "修辞表现力"
+      ],
+      "themes": [
+        "英雄",
+        "末路"
+      ],
+      "id": "P1-0175",
+      "scenes": [
+        "演讲开场",
+        "激励鼓舞"
+      ]
+    },
+    {
+      "category": "史传与人物对话",
+      "subcategory": "史传",
+      "original": "大风起兮云飞扬，威加海内兮归故乡，安得猛士兮守四方！",
+      "source": "刘邦《大风歌》",
+      "meaning": "大风起云飞扬，威震海内回归故乡，哪里能得到猛士守卫四方！",
+      "usage_example": "表达功成后的思虑与求贤。",
+      "difficulty": "中级",
+      "ability_tags": [
+        "修辞表现力"
+      ],
+      "themes": [
+        "功业",
+        "求贤"
+      ],
+      "id": "P1-0176",
+      "scenes": [
+        "演讲开场",
+        "激励鼓舞",
+        "职场谈吐"
+      ]
+    },
+    {
+      "category": "史传与人物对话",
+      "subcategory": "史传",
+      "original": "匈奴未灭，何以家为？",
+      "source": "《史记·卫将军骠骑列传》",
+      "meaning": "匈奴还没有消灭，怎么能先安家？",
+      "usage_example": "表达以国事为重的担当。",
+      "difficulty": "中级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "担当",
+        "国事"
+      ],
+      "id": "P1-0177",
+      "scenes": [
+        "演讲开场",
+        "激励鼓舞",
+        "职场谈吐",
+        "自我介绍"
+      ]
+    },
+    {
+      "category": "史传与人物对话",
+      "subcategory": "史传",
+      "original": "先天下之忧而忧，后天下之乐而乐。",
+      "source": "范仲淹《岳阳楼记》",
+      "meaning": "在天下人忧愁之前先忧愁，在天下人快乐之后才快乐。",
+      "usage_example": "表达崇高的家国情怀与责任感。",
+      "difficulty": "初级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "家国",
+        "责任"
+      ],
+      "id": "P1-0178",
+      "scenes": [
+        "演讲开场",
+        "激励鼓舞",
+        "职场谈吐",
+        "自我介绍"
+      ]
+    },
+    {
+      "category": "史传与人物对话",
+      "subcategory": "史传",
+      "original": "人生自古谁无死？留取丹心照汗青。",
+      "source": "文天祥《过零丁洋》",
+      "meaning": "自古以来谁能不死？只求留下赤诚忠心照耀史册。",
+      "usage_example": "表达舍生取义的气节。",
+      "difficulty": "初级",
+      "ability_tags": [
+        "素材储备力",
+        "修辞表现力"
+      ],
+      "themes": [
+        "气节",
+        "忠义"
+      ],
+      "id": "P1-0179",
+      "scenes": [
+        "演讲开场",
+        "激励鼓舞"
+      ]
+    },
+    {
+      "category": "史传与人物对话",
+      "subcategory": "史传",
+      "original": "苟利国家生死以，岂因祸福避趋之。",
+      "source": "林则徐",
+      "meaning": "只要有利于国家，生死都可以置之度外，怎能因为祸福而逃避或趋附？",
+      "usage_example": "表达以国家利益为重的坚定。",
+      "difficulty": "中级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "爱国",
+        "担当"
+      ],
+      "id": "P1-0180",
+      "scenes": [
+        "演讲开场",
+        "激励鼓舞",
+        "职场谈吐",
+        "自我介绍"
+      ]
+    },
+    {
+      "category": "史传与人物对话",
+      "subcategory": "史传",
+      "original": "天下兴亡，匹夫有责。",
+      "source": "顾炎武《日知录》相关表述",
+      "meaning": "天下的兴亡，每个普通人都有责任。",
+      "usage_example": "强调普通人对国家的责任感。",
+      "difficulty": "初级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "责任",
+        "家国"
+      ],
+      "id": "P1-0181",
+      "scenes": [
+        "演讲开场",
+        "激励鼓舞",
+        "职场谈吐",
+        "自我介绍"
+      ]
+    },
+    {
+      "category": "史传与人物对话",
+      "subcategory": "史传",
+      "original": "我自横刀向天笑，去留肝胆两昆仑。",
+      "source": "谭嗣同《狱中题壁》",
+      "meaning": "我自己横刀向天大笑，去留都像昆仑一样光明磊落。",
+      "usage_example": "表达从容赴死的豪情与无悔。",
+      "difficulty": "高级",
+      "ability_tags": [
+        "修辞表现力"
+      ],
+      "themes": [
+        "豪情",
+        "牺牲"
+      ],
+      "id": "P1-0182",
+      "scenes": [
+        "演讲开场",
+        "激励鼓舞"
+      ]
+    },
+    {
+      "category": "史传与人物对话",
+      "subcategory": "史传",
+      "original": "拼将十万头颅血，须把乾坤力挽回。",
+      "source": "秋瑾",
+      "meaning": "拼上十万头颅的鲜血，一定要把乾坤挽回。",
+      "usage_example": "表达为变革不惜牺牲的决心。",
+      "difficulty": "高级",
+      "ability_tags": [
+        "修辞表现力"
+      ],
+      "themes": [
+        "革命",
+        "决心"
+      ],
+      "id": "P1-0183",
+      "scenes": [
+        "演讲开场",
+        "激励鼓舞"
+      ]
+    },
+    {
+      "category": "史传与人物对话",
+      "subcategory": "史传",
+      "original": "竖子不足与谋。",
+      "source": "《史记·项羽本纪》",
+      "meaning": "这小子不值得一起谋划大事。",
+      "usage_example": "表达对合作者能力的失望。",
+      "difficulty": "中级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "评价",
+        "失望"
+      ],
+      "id": "P1-0184",
+      "scenes": [
+        "演讲开场",
+        "激励鼓舞"
+      ]
+    },
+    {
+      "category": "史传与人物对话",
+      "subcategory": "史传",
+      "original": "此臣日夜切齿拊心也。",
+      "source": "《史记·刺客列传》",
+      "meaning": "这是我日夜咬牙捶胸的恨事。",
+      "usage_example": "表达深切的仇恨与决心。",
+      "difficulty": "高级",
+      "ability_tags": [
+        "修辞表现力"
+      ],
+      "themes": [
+        "仇恨",
+        "决心"
+      ],
+      "id": "P1-0185",
+      "scenes": [
+        "演讲开场",
+        "激励鼓舞"
+      ]
+    },
+    {
+      "category": "史传与人物对话",
+      "subcategory": "史传",
+      "original": "今者项庄拔剑舞，其意常在沛公也。",
+      "source": "《史记·项羽本纪》",
+      "meaning": "现在项庄拔剑起舞，他的意图一直在沛公身上。",
+      "usage_example": "比喻表面行动另有图谋。",
+      "difficulty": "中级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "阴谋",
+        "警惕"
+      ],
+      "id": "P1-0186",
+      "scenes": [
+        "演讲开场",
+        "激励鼓舞",
+        "职场谈吐",
+        "辩论反驳"
+      ]
+    },
+    {
+      "category": "史传与人物对话",
+      "subcategory": "史传",
+      "original": "大行不顾细谨，大礼不辞小让。",
+      "source": "《史记·项羽本纪》",
+      "meaning": "干大事不必顾及小节，行大礼不必计较小的谦让。",
+      "usage_example": "强调抓大放小的智慧。",
+      "difficulty": "中级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "大局",
+        "取舍"
+      ],
+      "id": "P1-0187",
+      "scenes": [
+        "演讲开场",
+        "激励鼓舞"
+      ]
+    },
+    {
+      "category": "史传与人物对话",
+      "subcategory": "史传",
+      "original": "人言可畏。",
+      "source": "《诗经·郑风·将仲子》及后世引申",
+      "meaning": "别人的闲话是可怕的。",
+      "usage_example": "提醒舆论与流言的力量。",
+      "difficulty": "初级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "舆论",
+        "谨慎"
+      ],
+      "id": "P1-0188",
+      "scenes": [
+        "演讲开场",
+        "激励鼓舞",
+        "职场谈吐",
+        "辩论反驳"
+      ]
+    },
+    {
+      "category": "史传与人物对话",
+      "subcategory": "史传",
+      "original": "精诚所至，金石为开。",
+      "source": "《后汉书·广陵思王荆传》相关",
+      "meaning": "真诚到了极点，金石也会被打开。",
+      "usage_example": "强调真诚的巨大力量。",
+      "difficulty": "初级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "真诚",
+        "坚持"
+      ],
+      "id": "P1-0189",
+      "scenes": [
+        "演讲开场",
+        "激励鼓舞",
+        "职场谈吐"
+      ]
+    },
+    {
+      "category": "全球经典名言",
+      "subcategory": "西方与全球",
+      "original": "The unexamined life is not worth living.",
+      "source": "苏格拉底",
+      "meaning": "未经审视的人生不值得过。",
+      "usage_example": "强调自我反思与哲学思考的价值。",
+      "difficulty": "中级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "反思",
+        "人生"
+      ],
+      "id": "P1-0190",
+      "scenes": [
+        "演讲开场",
+        "激励鼓舞",
+        "辩论反驳"
+      ]
+    },
+    {
+      "category": "全球经典名言",
+      "subcategory": "西方与全球",
+      "original": "I think, therefore I am.",
+      "source": "笛卡尔《谈谈方法》",
+      "meaning": "我思故我在。",
+      "usage_example": "确立理性思考作为存在的基础。",
+      "difficulty": "中级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "理性",
+        "存在"
+      ],
+      "id": "P1-0191",
+      "scenes": [
+        "演讲开场",
+        "激励鼓舞",
+        "辩论反驳"
+      ]
+    },
+    {
+      "category": "全球经典名言",
+      "subcategory": "西方与全球",
+      "original": "Knowledge is power.",
+      "source": "培根",
+      "meaning": "知识就是力量。",
+      "usage_example": "强调知识的实用与改造世界的力量。",
+      "difficulty": "初级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "知识",
+        "力量"
+      ],
+      "id": "P1-0192",
+      "scenes": [
+        "演讲开场",
+        "激励鼓舞",
+        "辩论反驳"
+      ]
+    },
+    {
+      "category": "全球经典名言",
+      "subcategory": "西方与全球",
+      "original": "To be, or not to be, that is the question.",
+      "source": "莎士比亚《哈姆雷特》",
+      "meaning": "生存还是毁灭，这是一个问题。",
+      "usage_example": "表达对存在与选择的深刻犹豫。",
+      "difficulty": "中级",
+      "ability_tags": [
+        "修辞表现力"
+      ],
+      "themes": [
+        "存在",
+        "选择"
+      ],
+      "id": "P1-0193",
+      "scenes": [
+        "演讲开场",
+        "激励鼓舞",
+        "辩论反驳"
+      ]
+    },
+    {
+      "category": "全球经典名言",
+      "subcategory": "西方与全球",
+      "original": "All the world's a stage, and all the men and women merely players.",
+      "source": "莎士比亚《皆大欢喜》",
+      "meaning": "整个世界是一个舞台，所有男女只是演员。",
+      "usage_example": "比喻人生如戏，角色不断转换。",
+      "difficulty": "中级",
+      "ability_tags": [
+        "修辞表现力"
+      ],
+      "themes": [
+        "人生",
+        "角色"
+      ],
+      "id": "P1-0194",
+      "scenes": [
+        "演讲开场",
+        "激励鼓舞",
+        "辩论反驳"
+      ]
+    },
+    {
+      "category": "全球经典名言",
+      "subcategory": "西方与全球",
+      "original": "The only thing we have to fear is fear itself.",
+      "source": "富兰克林·罗斯福",
+      "meaning": "我们唯一需要恐惧的就是恐惧本身。",
+      "usage_example": "鼓励克服恐惧，直面挑战。",
+      "difficulty": "初级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "勇气",
+        "恐惧"
+      ],
+      "id": "P1-0195",
+      "scenes": [
+        "演讲开场",
+        "激励鼓舞",
+        "辩论反驳"
+      ]
+    },
+    {
+      "category": "全球经典名言",
+      "subcategory": "西方与全球",
+      "original": "Ask not what your country can do for you – ask what you can do for your country.",
+      "source": "约翰·肯尼迪",
+      "meaning": "不要问国家能为你做什么，要问你能为国家做什么。",
+      "usage_example": "强调个人对集体的责任与贡献。",
+      "difficulty": "初级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "责任",
+        "贡献"
+      ],
+      "id": "P1-0196",
+      "scenes": [
+        "演讲开场",
+        "激励鼓舞",
+        "职场谈吐",
+        "自我介绍",
+        "辩论反驳"
+      ]
+    },
+    {
+      "category": "全球经典名言",
+      "subcategory": "西方与全球",
+      "original": "I have a dream...",
+      "source": "马丁·路德·金",
+      "meaning": "我有一个梦想……",
+      "usage_example": "表达对平等与正义的深切向往。",
+      "difficulty": "初级",
+      "ability_tags": [
+        "修辞表现力"
+      ],
+      "themes": [
+        "梦想",
+        "平等"
+      ],
+      "id": "P1-0197",
+      "scenes": [
+        "演讲开场",
+        "激励鼓舞",
+        "辩论反驳"
+      ]
+    },
+    {
+      "category": "全球经典名言",
+      "subcategory": "西方与全球",
+      "original": "The pen is mightier than the sword.",
+      "source": "爱德华·布尔沃-利顿",
+      "meaning": "笔比剑更有力量。",
+      "usage_example": "强调思想与文字的持久影响力。",
+      "difficulty": "初级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "思想",
+        "力量"
+      ],
+      "id": "P1-0198",
+      "scenes": [
+        "演讲开场",
+        "激励鼓舞",
+        "辩论反驳"
+      ]
+    },
+    {
+      "category": "全球经典名言",
+      "subcategory": "西方与全球",
+      "original": "That which does not kill us makes us stronger.",
+      "source": "尼采",
+      "meaning": "杀不死我们的，会使我们更强大。",
+      "usage_example": "阐述苦难对成长的积极意义。",
+      "difficulty": "中级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "苦难",
+        "成长"
+      ],
+      "id": "P1-0199",
+      "scenes": [
+        "演讲开场",
+        "激励鼓舞",
+        "职场谈吐",
+        "辩论反驳"
+      ]
+    },
+    {
+      "category": "全球经典名言",
+      "subcategory": "西方与全球",
+      "original": "God is dead.",
+      "source": "尼采",
+      "meaning": "上帝死了。",
+      "usage_example": "表达传统价值体系的崩塌与现代人的处境。",
+      "difficulty": "高级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "现代性",
+        "价值"
+      ],
+      "id": "P1-0200",
+      "scenes": [
+        "演讲开场",
+        "激励鼓舞",
+        "辩论反驳"
+      ]
+    },
+    {
+      "category": "全球经典名言",
+      "subcategory": "西方与全球",
+      "original": "Man is condemned to be free.",
+      "source": "萨特",
+      "meaning": "人被判定为自由。",
+      "usage_example": "强调人必须为自己的选择负责。",
+      "difficulty": "高级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "自由",
+        "责任"
+      ],
+      "id": "P1-0201",
+      "scenes": [
+        "演讲开场",
+        "激励鼓舞",
+        "职场谈吐",
+        "自我介绍",
+        "辩论反驳"
+      ]
+    },
+    {
+      "category": "全球经典名言",
+      "subcategory": "西方与全球",
+      "original": "Hell is other people.",
+      "source": "萨特《禁闭》",
+      "meaning": "他人即地狱。",
+      "usage_example": "表达人际关系中的冲突与凝视的压迫。",
+      "difficulty": "高级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "人际关系",
+        "存在"
+      ],
+      "id": "P1-0202",
+      "scenes": [
+        "演讲开场",
+        "激励鼓舞",
+        "辩论反驳"
+      ]
+    },
+    {
+      "category": "全球经典名言",
+      "subcategory": "西方与全球",
+      "original": "The only true wisdom is in knowing you know nothing.",
+      "source": "苏格拉底",
+      "meaning": "唯一真正的智慧是知道自己一无所知。",
+      "usage_example": "强调谦逊与持续求知。",
+      "difficulty": "中级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "谦逊",
+        "智慧"
+      ],
+      "id": "P1-0203",
+      "scenes": [
+        "演讲开场",
+        "激励鼓舞",
+        "辩论反驳"
+      ]
+    },
+    {
+      "category": "全球经典名言",
+      "subcategory": "西方与全球",
+      "original": "We are what we repeatedly do. Excellence, then, is not an act, but a habit.",
+      "source": "亚里士多德（亚里士多德相关表述）",
+      "meaning": "我们反复做的事情造就了我们。卓越不是一次行动，而是一种习惯。",
+      "usage_example": "强调习惯对品格与成就的决定性。",
+      "difficulty": "中级",
+      "ability_tags": [
+        "结构组织力"
+      ],
+      "themes": [
+        "习惯",
+        "卓越"
+      ],
+      "id": "P1-0204",
+      "scenes": [
+        "演讲开场",
+        "激励鼓舞",
+        "辩论反驳"
+      ]
+    },
+    {
+      "category": "全球经典名言",
+      "subcategory": "西方与全球",
+      "original": "The greatest glory in living lies not in never falling, but in rising every time we fall.",
+      "source": "纳尔逊·曼德拉",
+      "meaning": "生命中最大的荣耀不在于从不跌倒，而在于每次跌倒后都能站起来。",
+      "usage_example": "鼓励在失败中站起。",
+      "difficulty": "初级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "坚韧",
+        "失败"
+      ],
+      "id": "P1-0205",
+      "scenes": [
+        "演讲开场",
+        "激励鼓舞",
+        "辩论反驳"
+      ]
+    },
+    {
+      "category": "全球经典名言",
+      "subcategory": "西方与全球",
+      "original": "Education is the most powerful weapon which you can use to change the world.",
+      "source": "纳尔逊·曼德拉",
+      "meaning": "教育是你能用来改变世界的最强大武器。",
+      "usage_example": "强调教育的变革力量。",
+      "difficulty": "初级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "教育",
+        "变革"
+      ],
+      "id": "P1-0206",
+      "scenes": [
+        "演讲开场",
+        "激励鼓舞",
+        "职场谈吐",
+        "辩论反驳"
+      ]
+    },
+    {
+      "category": "全球经典名言",
+      "subcategory": "西方与全球",
+      "original": "In the middle of difficulty lies opportunity.",
+      "source": "爱因斯坦",
+      "meaning": "困难之中蕴藏着机会。",
+      "usage_example": "鼓励在困境中寻找转机。",
+      "difficulty": "初级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "机会",
+        "困难"
+      ],
+      "id": "P1-0207",
+      "scenes": [
+        "演讲开场",
+        "激励鼓舞",
+        "辩论反驳"
+      ]
+    },
+    {
+      "category": "全球经典名言",
+      "subcategory": "西方与全球",
+      "original": "Imagination is more important than knowledge.",
+      "source": "爱因斯坦",
+      "meaning": "想象力比知识更重要。",
+      "usage_example": "强调创造力与想象力的价值。",
+      "difficulty": "中级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "想象",
+        "创造"
+      ],
+      "id": "P1-0208",
+      "scenes": [
+        "演讲开场",
+        "激励鼓舞",
+        "辩论反驳"
+      ]
+    },
+    {
+      "category": "全球经典名言",
+      "subcategory": "西方与全球",
+      "original": "The important thing is not to stop questioning.",
+      "source": "爱因斯坦",
+      "meaning": "重要的是不要停止提问。",
+      "usage_example": "鼓励持续好奇与探索。",
+      "difficulty": "初级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "好奇",
+        "探索"
+      ],
+      "id": "P1-0209",
+      "scenes": [
+        "演讲开场",
+        "激励鼓舞",
+        "辩论反驳"
+      ]
+    },
+    {
+      "category": "全球经典名言",
+      "subcategory": "西方与全球",
+      "original": "Be the change that you wish to see in the world.",
+      "source": "甘地",
+      "meaning": "成为你希望在世界上看到的改变。",
+      "usage_example": "强调以身作则。",
+      "difficulty": "初级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "行动",
+        "榜样"
+      ],
+      "id": "P1-0210",
+      "scenes": [
+        "演讲开场",
+        "激励鼓舞",
+        "辩论反驳"
+      ]
+    },
+    {
+      "category": "全球经典名言",
+      "subcategory": "西方与全球",
+      "original": "An eye for an eye only ends up making the whole world blind.",
+      "source": "甘地",
+      "meaning": "以眼还眼只会让整个世界失明。",
+      "usage_example": "反对以暴制暴，提倡宽恕与非暴力。",
+      "difficulty": "中级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "非暴力",
+        "宽恕"
+      ],
+      "id": "P1-0211",
+      "scenes": [
+        "演讲开场",
+        "激励鼓舞",
+        "辩论反驳"
+      ]
+    },
+    {
+      "category": "全球经典名言",
+      "subcategory": "西方与全球",
+      "original": "The best way to find yourself is to lose yourself in the service of others.",
+      "source": "甘地",
+      "meaning": "找到自我的最好方式是在为他人服务中忘我。",
+      "usage_example": "强调通过奉献实现自我。",
+      "difficulty": "中级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "奉献",
+        "自我"
+      ],
+      "id": "P1-0212",
+      "scenes": [
+        "演讲开场",
+        "激励鼓舞",
+        "辩论反驳"
+      ]
+    },
+    {
+      "category": "全球经典名言",
+      "subcategory": "西方与全球",
+      "original": "It is not the strongest of the species that survives, nor the most intelligent, but the one most responsive to change.",
+      "source": "达尔文（相关表述）",
+      "meaning": "能生存下来的不是最强或最聪明的物种，而是最能适应变化的。",
+      "usage_example": "强调适应变化的能力。",
+      "difficulty": "中级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "适应",
+        "变化"
+      ],
+      "id": "P1-0213",
+      "scenes": [
+        "演讲开场",
+        "激励鼓舞",
+        "辩论反驳"
+      ]
+    },
+    {
+      "category": "全球经典名言",
+      "subcategory": "西方与全球",
+      "original": "The only constant in life is change.",
+      "source": "赫拉克利特相关思想",
+      "meaning": "生命中唯一不变的是变化。",
+      "usage_example": "提醒接受变化的常态。",
+      "difficulty": "初级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "变化",
+        "常态"
+      ],
+      "id": "P1-0214",
+      "scenes": [
+        "演讲开场",
+        "激励鼓舞",
+        "辩论反驳"
+      ]
+    },
+    {
+      "category": "全球经典名言",
+      "subcategory": "西方与全球",
+      "original": "Know thyself.",
+      "source": "德尔斐神庙铭文 / 苏格拉底相关",
+      "meaning": "认识你自己。",
+      "usage_example": "强调自我认知的根本重要性。",
+      "difficulty": "初级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "自知"
+      ],
+      "id": "P1-0215",
+      "scenes": [
+        "演讲开场",
+        "激励鼓舞",
+        "辩论反驳"
+      ]
+    },
+    {
+      "category": "全球经典名言",
+      "subcategory": "西方与全球",
+      "original": "Nothing in excess.",
+      "source": "德尔斐神庙铭文",
+      "meaning": "凡事勿过度。",
+      "usage_example": "强调适度与平衡。",
+      "difficulty": "初级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "适度"
+      ],
+      "id": "P1-0216",
+      "scenes": [
+        "演讲开场",
+        "激励鼓舞",
+        "辩论反驳"
+      ]
+    },
+    {
+      "category": "全球经典名言",
+      "subcategory": "西方与全球",
+      "original": "The unexamined life is not worth living for a human being.",
+      "source": "柏拉图《申辩篇》记录苏格拉底",
+      "meaning": "对人类而言，未经审视的人生是不值得过的。",
+      "usage_example": "强调哲学反思对人生的意义。",
+      "difficulty": "中级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "反思",
+        "人生"
+      ],
+      "id": "P1-0217",
+      "scenes": [
+        "演讲开场",
+        "激励鼓舞",
+        "辩论反驳"
+      ]
+    },
+    {
+      "category": "全球经典名言",
+      "subcategory": "西方与全球",
+      "original": "Power tends to corrupt, and absolute power corrupts absolutely.",
+      "source": "阿克顿勋爵",
+      "meaning": "权力导致腐败，绝对权力导致绝对腐败。",
+      "usage_example": "警示权力的腐蚀性。",
+      "difficulty": "中级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "权力",
+        "腐败"
+      ],
+      "id": "P1-0218",
+      "scenes": [
+        "演讲开场",
+        "激励鼓舞",
+        "辩论反驳"
+      ]
+    },
+    {
+      "category": "全球经典名言",
+      "subcategory": "西方与全球",
+      "original": "Those who cannot remember the past are condemned to repeat it.",
+      "source": "乔治·桑塔亚那",
+      "meaning": "不能铭记过去的人，注定要重蹈覆辙。",
+      "usage_example": "强调历史学习的重要性。",
+      "difficulty": "初级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "历史",
+        "教训"
+      ],
+      "id": "P1-0219",
+      "scenes": [
+        "演讲开场",
+        "激励鼓舞",
+        "辩论反驳"
+      ]
+    },
+    {
+      "category": "古诗词金句",
+      "subcategory": "诗经",
+      "original": "礼尚往来。往而不来，非礼也；来而不往，亦非礼也。",
+      "source": "《礼记·曲礼上》",
+      "meaning": "礼节重视有来有往。",
+      "usage_example": "强调 reciprocal 与基本礼貌。",
+      "difficulty": "初级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "礼仪",
+        " reciprocal"
+      ],
+      "id": "P1-0220",
+      "scenes": [
+        "通用"
+      ]
+    },
+    {
+      "category": "古诗词金句",
+      "subcategory": "诗经",
+      "original": "一张一弛，文武之道。",
+      "source": "《礼记·杂记下》",
+      "meaning": "紧张与松弛相结合，是文武之道。",
+      "usage_example": "强调节奏与张弛有度。",
+      "difficulty": "初级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "节奏",
+        "平衡"
+      ],
+      "id": "P1-0221",
+      "scenes": [
+        "通用"
+      ]
+    },
+    {
+      "category": "古诗词金句",
+      "subcategory": "诗经",
+      "original": "差之毫厘，谬以千里。",
+      "source": "《礼记·经解》",
+      "meaning": "开始差一点点，结果就会错很远。",
+      "usage_example": "提醒细节与起点的重要性。",
+      "difficulty": "初级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "细节",
+        "起点"
+      ],
+      "id": "P1-0222",
+      "scenes": [
+        "通用"
+      ]
+    },
+    {
+      "category": "古诗词金句",
+      "subcategory": "诗经",
+      "original": "言者无罪，闻者足戒。",
+      "source": "《诗经·大序》",
+      "meaning": "说话的人没有罪，听话的人足以警戒。",
+      "usage_example": "鼓励直言与虚心听取。",
+      "difficulty": "初级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "进言",
+        "虚心"
+      ],
+      "id": "P1-0223",
+      "scenes": [
+        "通用"
+      ]
+    },
+    {
+      "category": "古诗词金句",
+      "subcategory": "诗经",
+      "original": "高山仰止，景行行止。",
+      "source": "《诗经·小雅·车舝》",
+      "meaning": "高山令人仰望，大路引人前行。",
+      "usage_example": "表达对高尚品德的景仰。",
+      "difficulty": "中级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "景仰",
+        "品德"
+      ],
+      "id": "P1-0224",
+      "scenes": [
+        "通用"
+      ]
+    },
+    {
+      "category": "古诗词金句",
+      "subcategory": "诗经",
+      "original": "如临深渊，如履薄冰。",
+      "source": "《诗经·小雅·小旻》",
+      "meaning": "像面临深渊，像走在薄冰上。",
+      "usage_example": "形容处境危险、需要极度谨慎。",
+      "difficulty": "初级",
+      "ability_tags": [
+        "修辞表现力"
+      ],
+      "themes": [
+        "谨慎",
+        "危险"
+      ],
+      "id": "P1-0225",
+      "scenes": [
+        "职场谈吐",
+        "辩论反驳"
+      ]
+    },
+    {
+      "category": "古诗词金句",
+      "subcategory": "诗经",
+      "original": "战战兢兢，如临深渊，如履薄冰。",
+      "source": "《诗经·小雅·小旻》",
+      "meaning": "形容恐惧谨慎到极点。",
+      "usage_example": "表达高度警惕与谨慎。",
+      "difficulty": "初级",
+      "ability_tags": [
+        "修辞表现力"
+      ],
+      "themes": [
+        "谨慎"
+      ],
+      "id": "P1-0226",
+      "scenes": [
+        "职场谈吐",
+        "辩论反驳"
+      ]
+    },
+    {
+      "category": "古诗词金句",
+      "subcategory": "诗经",
+      "original": "青青子衿，悠悠我心。",
+      "source": "《诗经·郑风·子衿》",
+      "meaning": "青青的衣领，悠悠的我心。",
+      "usage_example": "表达深切的思念。",
+      "difficulty": "初级",
+      "ability_tags": [
+        "修辞表现力"
+      ],
+      "themes": [
+        "思念"
+      ],
+      "id": "P1-0227",
+      "scenes": [
+        "演讲结尾",
+        "社交闲谈"
+      ]
+    },
+    {
+      "category": "古诗词金句",
+      "subcategory": "诗经",
+      "original": "一日不见，如三秋兮。",
+      "source": "《诗经·王风·采葛》",
+      "meaning": "一天不见面，就像过了三年。",
+      "usage_example": "形容极度思念。",
+      "difficulty": "初级",
+      "ability_tags": [
+        "修辞表现力"
+      ],
+      "themes": [
+        "思念"
+      ],
+      "id": "P1-0228",
+      "scenes": [
+        "演讲结尾",
+        "社交闲谈"
+      ]
+    },
+    {
+      "category": "古诗词金句",
+      "subcategory": "诗经",
+      "original": "执子之手，与子偕老。",
+      "source": "《诗经·邶风·击鼓》",
+      "meaning": "牵着你的手，与你一起到老。",
+      "usage_example": "表达永恒相守的承诺。",
+      "difficulty": "初级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "承诺",
+        "爱情"
+      ],
+      "id": "P1-0229",
+      "scenes": [
+        "通用"
+      ]
+    },
+    {
+      "category": "古诗词金句",
+      "subcategory": "诗经",
+      "original": "死生契阔，与子成说。",
+      "source": "《诗经·邶风·击鼓》",
+      "meaning": "生死离合，与你约定。",
+      "usage_example": "表达生死与共的誓言。",
+      "difficulty": "中级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "誓言",
+        "情谊"
+      ],
+      "id": "P1-0230",
+      "scenes": [
+        "通用"
+      ]
+    },
+    {
+      "category": "古诗词金句",
+      "subcategory": "诗经",
+      "original": "投我以桃，报之以李。",
+      "source": "《诗经·大雅·抑》",
+      "meaning": "你送我桃子，我回你李子。",
+      "usage_example": "强调 reciprocal 与对等回馈。",
+      "difficulty": "初级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        " reciprocal"
+      ],
+      "id": "P1-0231",
+      "scenes": [
+        "通用"
+      ]
+    },
+    {
+      "category": "古诗词金句",
+      "subcategory": "诗经",
+      "original": "言念君子，温其如玉。",
+      "source": "《诗经·秦风·小戎》",
+      "meaning": "想念那君子，温和如玉。",
+      "usage_example": "形容理想人格的温润。",
+      "difficulty": "中级",
+      "ability_tags": [
+        "修辞表现力"
+      ],
+      "themes": [
+        "君子",
+        "温润"
+      ],
+      "id": "P1-0232",
+      "scenes": [
+        "通用"
+      ]
+    },
+    {
+      "category": "古诗词金句",
+      "subcategory": "诗经",
+      "original": "所谓伊人，在水一方。",
+      "source": "《诗经·秦风·蒹葭》",
+      "meaning": "我所思念的人，在水的那一边。",
+      "usage_example": "表达可望而不可即的追求。",
+      "difficulty": "初级",
+      "ability_tags": [
+        "修辞表现力"
+      ],
+      "themes": [
+        "追求",
+        "思念"
+      ],
+      "id": "P1-0233",
+      "scenes": [
+        "演讲结尾",
+        "社交闲谈"
+      ]
+    },
+    {
+      "category": "古诗词金句",
+      "subcategory": "诗经",
+      "original": "溯洄从之，道阻且长。",
+      "source": "《诗经·秦风·蒹葭》",
+      "meaning": "逆流追寻，道路艰阻漫长。",
+      "usage_example": "形容追求过程的艰难。",
+      "difficulty": "中级",
+      "ability_tags": [
+        "修辞表现力"
+      ],
+      "themes": [
+        "追求",
+        "艰难"
+      ],
+      "id": "P1-0234",
+      "scenes": [
+        "通用"
+      ]
+    },
+    {
+      "category": "古诗词金句",
+      "subcategory": "诗经",
+      "original": "溯游从之，宛在水中央。",
+      "source": "《诗经·秦风·蒹葭》",
+      "meaning": "顺流追寻，仿佛在水中央。",
+      "usage_example": "表达若即若离的意境。",
+      "difficulty": "中级",
+      "ability_tags": [
+        "修辞表现力"
+      ],
+      "themes": [
+        "意境"
+      ],
+      "id": "P1-0235",
+      "scenes": [
+        "通用"
+      ]
+    },
+    {
+      "category": "古诗词金句",
+      "subcategory": "诗经",
+      "original": "风雨如晦，鸡鸣不已。",
+      "source": "《诗经·郑风·风雨》",
+      "meaning": "风雨交加天色昏暗，鸡却不停啼叫。",
+      "usage_example": "比喻在黑暗中仍有坚持与希望。",
+      "difficulty": "中级",
+      "ability_tags": [
+        "修辞表现力"
+      ],
+      "themes": [
+        "坚持",
+        "希望"
+      ],
+      "id": "P1-0236",
+      "scenes": [
+        "演讲开场",
+        "激励鼓舞",
+        "职场谈吐"
+      ]
+    },
+    {
+      "category": "古诗词金句",
+      "subcategory": "诗经",
+      "original": "青青子佩，悠悠我思。",
+      "source": "《诗经·郑风·子衿》",
+      "meaning": "青青的佩玉，悠悠的思念。",
+      "usage_example": "表达深切思念。",
+      "difficulty": "初级",
+      "ability_tags": [
+        "修辞表现力"
+      ],
+      "themes": [
+        "思念"
+      ],
+      "id": "P1-0237",
+      "scenes": [
+        "演讲结尾",
+        "社交闲谈"
+      ]
+    },
+    {
+      "category": "古诗词金句",
+      "subcategory": "诗经",
+      "original": "有匪君子，如切如磋，如琢如磨。",
+      "source": "《诗经·卫风·淇奥》",
+      "meaning": "文雅的君子，像经过切磋琢磨。",
+      "usage_example": "形容君子经过精修的品格。",
+      "difficulty": "中级",
+      "ability_tags": [
+        "修辞表现力"
+      ],
+      "themes": [
+        "君子",
+        "修身"
+      ],
+      "id": "P1-0238",
+      "scenes": [
+        "通用"
+      ]
+    },
+    {
+      "category": "古诗词金句",
+      "subcategory": "诗经",
+      "original": "巧笑倩兮，美目盼兮。",
+      "source": "《诗经·卫风·硕人》",
+      "meaning": "甜美的笑，明亮的眼睛。",
+      "usage_example": "形容女子美丽动人。",
+      "difficulty": "初级",
+      "ability_tags": [
+        "修辞表现力"
+      ],
+      "themes": [
+        "美丽"
+      ],
+      "id": "P1-0239",
+      "scenes": [
+        "通用"
+      ]
+    },
+    {
+      "category": "专项补充",
+      "subcategory": "职场谈吐",
+      "original": "工欲善其事，必先利其器。",
+      "source": "《论语·卫灵公》",
+      "meaning": "要做好工作，必须先把工具和准备工作做好。",
+      "usage_example": "强调项目启动前充分准备、工具与能力建设的重要性。例：在启动新项目前，我们不妨先做到‘工欲善其事，必先利其器’。",
+      "difficulty": "初级",
+      "ability_tags": [
+        "素材储备力",
+        "结构组织力"
+      ],
+      "themes": [
+        "准备",
+        "工具",
+        "职场"
+      ],
+      "scenes": [
+        "职场谈吐",
+        "演讲开场"
+      ],
+      "id": "P1-0240"
+    },
+    {
+      "category": "专项补充",
+      "subcategory": "职场谈吐",
+      "original": "君子和而不同，小人同而不和。",
+      "source": "《论语·子路》",
+      "meaning": "真正的合作是和谐而保留差异，而非表面一致。",
+      "usage_example": "讨论团队多样性与真正协作时使用。例：真正高效的团队，应该是‘和而不同’，而不是一味追求表面统一。",
+      "difficulty": "中级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "团队",
+        "多样性",
+        "协作"
+      ],
+      "scenes": [
+        "职场谈吐",
+        "辩论反驳"
+      ],
+      "id": "P1-0241"
+    },
+    {
+      "category": "专项补充",
+      "subcategory": "职场谈吐",
+      "original": "知之为知之，不知为不知，是知也。",
+      "source": "《论语·为政》",
+      "meaning": "承认自己不知道，才是真正的智慧。",
+      "usage_example": "在会议中坦诚承认信息不足或需要进一步研究时使用，展现专业与诚信。",
+      "difficulty": "初级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "诚实",
+        "专业",
+        "认知"
+      ],
+      "scenes": [
+        "职场谈吐",
+        "自我介绍"
+      ],
+      "id": "P1-0242"
+    },
+    {
+      "category": "专项补充",
+      "subcategory": "职场谈吐",
+      "original": "凡事豫则立，不豫则废。",
+      "source": "《礼记·中庸》",
+      "meaning": "事前准备充分则成功，否则容易失败。",
+      "usage_example": "强调规划与风险管理。例：这次上线前我们做了充分预案，正是‘凡事豫则立’的实践。",
+      "difficulty": "初级",
+      "ability_tags": [
+        "结构组织力"
+      ],
+      "themes": [
+        "规划",
+        "准备",
+        "风险"
+      ],
+      "scenes": [
+        "职场谈吐",
+        "演讲开场"
+      ],
+      "id": "P1-0243"
+    },
+    {
+      "category": "专项补充",
+      "subcategory": "职场谈吐",
+      "original": "尺有所短，寸有所长。",
+      "source": "《楚辞·卜居》",
+      "meaning": "任何人都有长处与短处。",
+      "usage_example": "在绩效反馈或团队分工时，强调互补而非单一标准。",
+      "difficulty": "初级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "互补",
+        "评价",
+        "团队"
+      ],
+      "scenes": [
+        "职场谈吐",
+        "劝慰安慰"
+      ],
+      "id": "P1-0244"
+    },
+    {
+      "category": "专项补充",
+      "subcategory": "职场谈吐",
+      "original": "桃李不言，下自成蹊。",
+      "source": "《史记·李将军列传》",
+      "meaning": "真正有价值的人不需自我宣传，自然会吸引他人。",
+      "usage_example": "鼓励用结果说话，而非过度自我营销。例：好的产品和服务，往往是‘桃李不言，下自成蹊’。",
+      "difficulty": "初级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "实干",
+        "影响力",
+        "结果"
+      ],
+      "scenes": [
+        "职场谈吐",
+        "演讲开场"
+      ],
+      "id": "P1-0245"
+    },
+    {
+      "category": "专项补充",
+      "subcategory": "职场谈吐",
+      "original": "临渊羡鱼，不如退而结网。",
+      "source": "《汉书·董仲舒传》",
+      "meaning": "与其站在水边羡慕鱼，不如回家织网。",
+      "usage_example": "从羡慕别人成果转向实际行动。例：与其临渊羡鱼，不如我们立刻开始结网。",
+      "difficulty": "初级",
+      "ability_tags": [
+        "素材储备力",
+        "修辞表现力"
+      ],
+      "themes": [
+        "行动",
+        "务实"
+      ],
+      "scenes": [
+        "职场谈吐",
+        "激励鼓舞"
+      ],
+      "id": "P1-0246"
+    },
+    {
+      "category": "专项补充",
+      "subcategory": "职场谈吐",
+      "original": "不积跬步，无以至千里。",
+      "source": "《荀子·劝学》",
+      "meaning": "没有一步一步的积累，就走不到千里之外。",
+      "usage_example": "强调日常积累与长期主义。例：业绩的突破，往往来自日常的‘跬步’积累。",
+      "difficulty": "初级",
+      "ability_tags": [
+        "结构组织力"
+      ],
+      "themes": [
+        "积累",
+        "长期主义"
+      ],
+      "scenes": [
+        "职场谈吐",
+        "激励鼓舞"
+      ],
+      "id": "P1-0247"
+    },
+    {
+      "category": "专项补充",
+      "subcategory": "职场谈吐",
+      "original": "君子生非异也，善假于物也。",
+      "source": "《荀子·劝学》",
+      "meaning": "君子并非天生特殊，而是善于借助工具与资源。",
+      "usage_example": "强调善用工具、团队与外部资源。例：真正的高手，往往是‘善假于物’的人。",
+      "difficulty": "中级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "借力",
+        "资源",
+        "工具"
+      ],
+      "scenes": [
+        "职场谈吐",
+        "演讲开场"
+      ],
+      "id": "P1-0248"
+    },
+    {
+      "category": "专项补充",
+      "subcategory": "职场谈吐",
+      "original": "欲速则不达。",
+      "source": "《论语·子路》",
+      "meaning": "过于追求速度，反而达不到目标。",
+      "usage_example": "在催进度或反对仓促决策时使用。例：我们不能欲速则不达，质量才是长期竞争力。",
+      "difficulty": "初级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "节奏",
+        "质量",
+        "耐心"
+      ],
+      "scenes": [
+        "职场谈吐",
+        "辩论反驳"
+      ],
+      "id": "P1-0249"
+    },
+    {
+      "category": "专项补充",
+      "subcategory": "演讲开场",
+      "original": "天行健，君子以自强不息。",
+      "source": "《周易·乾卦》",
+      "meaning": "天道刚健运行，君子应永不停息地自我提升。",
+      "usage_example": "作为演讲开场，快速建立积极向上的基调。例：古人说‘天行健，君子以自强不息’，今天我们也要以同样的精神面对挑战。",
+      "difficulty": "初级",
+      "ability_tags": [
+        "素材储备力",
+        "修辞表现力"
+      ],
+      "themes": [
+        "自强",
+        "奋斗",
+        "开场"
+      ],
+      "scenes": [
+        "演讲开场",
+        "激励鼓舞"
+      ],
+      "id": "P1-0250"
+    },
+    {
+      "category": "专项补充",
+      "subcategory": "演讲开场",
+      "original": "路漫漫其修远兮，吾将上下而求索。",
+      "source": "屈原《离骚》",
+      "meaning": "道路漫长，仍要坚持探索。",
+      "usage_example": "开场表达对长期目标的执着。例：正如屈原所言‘路漫漫其修远兮，吾将上下而求索’，我们今天的讨论，正是求索的一部分。",
+      "difficulty": "初级",
+      "ability_tags": [
+        "素材储备力",
+        "修辞表现力"
+      ],
+      "themes": [
+        "探索",
+        "理想",
+        "开场"
+      ],
+      "scenes": [
+        "演讲开场",
+        "激励鼓舞"
+      ],
+      "id": "P1-0251"
+    },
+    {
+      "category": "专项补充",
+      "subcategory": "演讲开场",
+      "original": "横看成岭侧成峰，远近高低各不同。",
+      "source": "苏轼《题西林壁》",
+      "meaning": "角度不同，所见不同。",
+      "usage_example": "开场引出多元视角。例：苏轼说‘横看成岭侧成峰’，今天我们不妨从多个角度重新审视这个问题。",
+      "difficulty": "初级",
+      "ability_tags": [
+        "结构组织力",
+        "素材储备力"
+      ],
+      "themes": [
+        "视角",
+        "多元",
+        "开场"
+      ],
+      "scenes": [
+        "演讲开场",
+        "辩论反驳"
+      ],
+      "id": "P1-0252"
+    },
+    {
+      "category": "专项补充",
+      "subcategory": "演讲开场",
+      "original": "不识庐山真面目，只缘身在此山中。",
+      "source": "苏轼《题西林壁》",
+      "meaning": "当局者迷，需要跳出局部看整体。",
+      "usage_example": "开场提醒听众跳出惯性思维。例：我们常常‘不识庐山真面目’，今天希望能一起站到更高处看清全貌。",
+      "difficulty": "初级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "认知局限",
+        "全局",
+        "开场"
+      ],
+      "scenes": [
+        "演讲开场",
+        "辩论反驳"
+      ],
+      "id": "P1-0253"
+    },
+    {
+      "category": "专项补充",
+      "subcategory": "演讲开场",
+      "original": "先天下之忧而忧，后天下之乐而乐。",
+      "source": "范仲淹《岳阳楼记》",
+      "meaning": "以天下为己任的崇高情怀。",
+      "usage_example": "开场迅速建立格局与责任感。例：范仲淹有言‘先天下之忧而忧’，今天我们讨论的议题，正关乎更广泛的公共利益。",
+      "difficulty": "初级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "责任",
+        "格局",
+        "开场"
+      ],
+      "scenes": [
+        "演讲开场",
+        "激励鼓舞"
+      ],
+      "id": "P1-0254"
+    },
+    {
+      "category": "专项补充",
+      "subcategory": "演讲结尾",
+      "original": "长风破浪会有时，直挂云帆济沧海。",
+      "source": "李白《行路难》",
+      "meaning": "总有乘风破浪的一天。",
+      "usage_example": "作为结尾，留下希望与力量。例：正如李白所写‘长风破浪会有时，直挂云帆济沧海’，让我们一起期待那个时刻。",
+      "difficulty": "初级",
+      "ability_tags": [
+        "修辞表现力"
+      ],
+      "themes": [
+        "希望",
+        "结尾",
+        "激励"
+      ],
+      "scenes": [
+        "演讲结尾",
+        "激励鼓舞"
+      ],
+      "id": "P1-0255"
+    },
+    {
+      "category": "专项补充",
+      "subcategory": "演讲结尾",
+      "original": "但愿人长久，千里共婵娟。",
+      "source": "苏轼《水调歌头》",
+      "meaning": "愿人平安，虽远共赏明月。",
+      "usage_example": "温暖的结尾，适合表达祝福与连接。例：最后，借用苏轼的一句‘但愿人长久，千里共婵娟’，祝愿在座各位一切安好。",
+      "difficulty": "初级",
+      "ability_tags": [
+        "修辞表现力"
+      ],
+      "themes": [
+        "祝福",
+        "结尾",
+        "连接"
+      ],
+      "scenes": [
+        "演讲结尾",
+        "社交闲谈"
+      ],
+      "id": "P1-0256"
+    },
+    {
+      "category": "专项补充",
+      "subcategory": "演讲结尾",
+      "original": "落红不是无情物，化作春泥更护花。",
+      "source": "龚自珍《己亥杂诗》",
+      "meaning": "即使凋零，也能化为养分成就新生。",
+      "usage_example": "结尾强调传承、奉献或阶段性结束的意义。",
+      "difficulty": "中级",
+      "ability_tags": [
+        "修辞表现力"
+      ],
+      "themes": [
+        "奉献",
+        "传承",
+        "结尾"
+      ],
+      "scenes": [
+        "演讲结尾",
+        "激励鼓舞"
+      ],
+      "id": "P1-0257"
+    },
+    {
+      "category": "专项补充",
+      "subcategory": "演讲开场",
+      "original": "The only thing we have to fear is fear itself.",
+      "source": "富兰克林·罗斯福",
+      "meaning": "我们唯一需要恐惧的就是恐惧本身。",
+      "usage_example": "开场直接点破听众可能的恐惧心理，建立勇气基调。",
+      "difficulty": "初级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "勇气",
+        "恐惧",
+        "开场"
+      ],
+      "scenes": [
+        "演讲开场",
+        "激励鼓舞"
+      ],
+      "id": "P1-0258"
+    },
+    {
+      "category": "专项补充",
+      "subcategory": "演讲开场",
+      "original": "I have a dream.",
+      "source": "马丁·路德·金",
+      "meaning": "我有一个梦想。",
+      "usage_example": "用简洁有力的句式开启愿景描述。例：今天，我也想借用这句话——我有一个梦想……",
+      "difficulty": "初级",
+      "ability_tags": [
+        "修辞表现力"
+      ],
+      "themes": [
+        "梦想",
+        "愿景",
+        "开场"
+      ],
+      "scenes": [
+        "演讲开场",
+        "激励鼓舞"
+      ],
+      "id": "P1-0259"
+    },
+    {
+      "category": "专项补充",
+      "subcategory": "辩论反驳",
+      "original": "尽信书，则不如无书。",
+      "source": "《孟子·尽心下》",
+      "meaning": "完全迷信书本或权威，不如没有。",
+      "usage_example": "反驳对方过度依赖单一权威或教条时使用。例：对方反复引用某报告，但我们都知道‘尽信书，则不如无书’。",
+      "difficulty": "初级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "独立思考",
+        "权威",
+        "反驳"
+      ],
+      "scenes": [
+        "辩论反驳",
+        "职场谈吐"
+      ],
+      "id": "P1-0260"
+    },
+    {
+      "category": "专项补充",
+      "subcategory": "辩论反驳",
+      "original": "自相矛盾。",
+      "source": "《韩非子·难一》",
+      "meaning": "言行前后抵触，无法自圆其说。",
+      "usage_example": "指出对方论证中的逻辑矛盾。例：对方刚才的观点，其实已经陷入了自相矛盾。",
+      "difficulty": "初级",
+      "ability_tags": [
+        "结构组织力"
+      ],
+      "themes": [
+        "逻辑",
+        "矛盾",
+        "反驳"
+      ],
+      "scenes": [
+        "辩论反驳"
+      ],
+      "id": "P1-0261"
+    },
+    {
+      "category": "专项补充",
+      "subcategory": "辩论反驳",
+      "original": "塞翁失马，焉知非福。",
+      "source": "《淮南子·人间训》",
+      "meaning": "坏事可能变成好事，福祸相依。",
+      "usage_example": "反驳对方把某结果绝对化看待时使用。例：即使出现暂时挫折，也未必是坏事，正所谓‘塞翁失马，焉知非福’。",
+      "difficulty": "初级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "辩证",
+        "得失",
+        "反驳"
+      ],
+      "scenes": [
+        "辩论反驳",
+        "劝慰安慰"
+      ],
+      "id": "P1-0262"
+    },
+    {
+      "category": "专项补充",
+      "subcategory": "辩论反驳",
+      "original": "纸上谈兵。",
+      "source": "《史记·廉颇蔺相如列传》",
+      "meaning": "只会空谈理论，不能解决实际问题。",
+      "usage_example": "反驳对方空有理论却脱离实际。例：这些方案听起来很美好，但如果不落地，就容易变成纸上谈兵。",
+      "difficulty": "初级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "实践",
+        "空谈",
+        "反驳"
+      ],
+      "scenes": [
+        "辩论反驳",
+        "职场谈吐"
+      ],
+      "id": "P1-0263"
+    },
+    {
+      "category": "专项补充",
+      "subcategory": "辩论反驳",
+      "original": "南辕北辙。",
+      "source": "《战国策·魏策四》",
+      "meaning": "行动与目标完全相反。",
+      "usage_example": "指出对方方法与目标背道而驰。例：如果方向错了，越努力只会越南辕北辙。",
+      "difficulty": "初级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "方向",
+        "目标",
+        "反驳"
+      ],
+      "scenes": [
+        "辩论反驳",
+        "职场谈吐"
+      ],
+      "id": "P1-0264"
+    },
+    {
+      "category": "专项补充",
+      "subcategory": "辩论反驳",
+      "original": "掩耳盗铃。",
+      "source": "《吕氏春秋·自知》",
+      "meaning": "自欺欺人。",
+      "usage_example": "指出对方回避事实或自我安慰的行为。例：忽视数据而坚持原有判断，无异于掩耳盗铃。",
+      "difficulty": "初级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "自欺",
+        "事实",
+        "反驳"
+      ],
+      "scenes": [
+        "辩论反驳"
+      ],
+      "id": "P1-0265"
+    },
+    {
+      "category": "专项补充",
+      "subcategory": "辩论反驳",
+      "original": "刻舟求剑。",
+      "source": "《吕氏春秋·察今》",
+      "meaning": "拘泥不知变通。",
+      "usage_example": "反驳对方用过时方法应对新情况。例：时代已经变了，再用旧地图找新地点，就是刻舟求剑。",
+      "difficulty": "初级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "变通",
+        "教条",
+        "反驳"
+      ],
+      "scenes": [
+        "辩论反驳",
+        "职场谈吐"
+      ],
+      "id": "P1-0266"
+    },
+    {
+      "category": "专项补充",
+      "subcategory": "辩论反驳",
+      "original": "橘生淮南则为橘，生于淮北则为枳。",
+      "source": "《晏子春秋》",
+      "meaning": "环境不同，结果会截然不同。",
+      "usage_example": "反驳对方忽略情境差异而简单类比。例：同样的方法在不同环境中效果可能完全不同，正所谓‘橘生淮南则为橘’。",
+      "difficulty": "中级",
+      "ability_tags": [
+        "素材储备力",
+        "结构组织力"
+      ],
+      "themes": [
+        "情境",
+        "类比",
+        "反驳"
+      ],
+      "scenes": [
+        "辩论反驳"
+      ],
+      "id": "P1-0267"
+    },
+    {
+      "category": "专项补充",
+      "subcategory": "辩论反驳",
+      "original": "兼听则明，偏信则暗。",
+      "source": "《资治通鉴》引魏徵语",
+      "meaning": "广泛听取才能明辨，只听一面之词就会糊涂。",
+      "usage_example": "反驳对方只采用单一信息源。例：我们之所以要多方求证，正是因为‘兼听则明，偏信则暗’。",
+      "difficulty": "初级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "信息",
+        "全面",
+        "反驳"
+      ],
+      "scenes": [
+        "辩论反驳",
+        "职场谈吐"
+      ],
+      "id": "P1-0268"
+    },
+    {
+      "category": "专项补充",
+      "subcategory": "辩论反驳",
+      "original": "真理越辩越明。",
+      "source": "常见表述，源于古典辩论精神",
+      "meaning": "通过充分辩论，真理会更加清晰。",
+      "usage_example": "在辩论中鼓励深入交锋，而非回避争议。例：我们不怕争论，因为真理越辩越明。",
+      "difficulty": "初级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "辩论",
+        "真理",
+        "开放"
+      ],
+      "scenes": [
+        "辩论反驳",
+        "演讲开场"
+      ],
+      "id": "P1-0269"
+    },
+    {
+      "category": "专项补充",
+      "subcategory": "自我介绍",
+      "original": "君子不器。",
+      "source": "《论语·为政》",
+      "meaning": "君子不应像固定的器皿一样只有单一用途，而应博学多能。",
+      "usage_example": "自我介绍时强调自己的可塑性与跨界能力。例：我始终记得‘君子不器’，所以一直保持学习不同领域的习惯。",
+      "difficulty": "中级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "多元",
+        "成长",
+        "自我"
+      ],
+      "scenes": [
+        "自我介绍",
+        "职场谈吐"
+      ],
+      "id": "P1-0270"
+    },
+    {
+      "category": "专项补充",
+      "subcategory": "劝慰安慰",
+      "original": "沉舟侧畔千帆过，病树前头万木春。",
+      "source": "刘禹锡《酬乐天扬州初逢席上见赠》",
+      "meaning": "沉船旁边仍有千帆驶过，病树前面仍是万木争春。",
+      "usage_example": "安慰遭遇挫折的人，强调新机会仍在。例：虽然这次失败了，但‘沉舟侧畔千帆过，病树前头万木春’，新的可能已经在路上。",
+      "difficulty": "中级",
+      "ability_tags": [
+        "修辞表现力"
+      ],
+      "themes": [
+        "希望",
+        "新生",
+        "安慰"
+      ],
+      "scenes": [
+        "劝慰安慰",
+        "激励鼓舞"
+      ],
+      "id": "P1-0271"
+    },
+    {
+      "category": "专项补充",
+      "subcategory": "劝慰安慰",
+      "original": "山重水复疑无路，柳暗花明又一村。",
+      "source": "陆游《游山西村》",
+      "meaning": "看似无路时，突然又出现新的村落与希望。",
+      "usage_example": "安慰陷入困境的人，鼓励继续前行。",
+      "difficulty": "初级",
+      "ability_tags": [
+        "修辞表现力"
+      ],
+      "themes": [
+        "希望",
+        "转机",
+        "安慰"
+      ],
+      "scenes": [
+        "劝慰安慰",
+        "激励鼓舞"
+      ],
+      "id": "P1-0272"
+    },
+    {
+      "category": "专项补充",
+      "subcategory": "社交闲谈",
+      "original": "有朋自远方来，不亦乐乎？",
+      "source": "《论语·学而》",
+      "meaning": "有朋友从远方来，不是很快乐吗？",
+      "usage_example": "欢迎远道而来的朋友或嘉宾时使用。",
+      "difficulty": "初级",
+      "ability_tags": [
+        "素材储备力"
+      ],
+      "themes": [
+        "友情",
+        "欢迎",
+        "社交"
+      ],
+      "scenes": [
+        "社交闲谈",
+        "演讲开场"
+      ],
+      "id": "P1-0273"
+    },
+    {
+      "category": "专项补充",
+      "subcategory": "社交闲谈",
+      "original": "海内存知己，天涯若比邻。",
+      "source": "王勃《送杜少府之任蜀州》",
+      "meaning": "真正的知己不因距离而疏远。",
+      "usage_example": "表达对远方朋友的情谊或安慰离别。",
+      "difficulty": "初级",
+      "ability_tags": [
+        "修辞表现力"
+      ],
+      "themes": [
+        "友情",
+        "距离",
+        "社交"
+      ],
+      "scenes": [
+        "社交闲谈",
+        "演讲结尾"
+      ],
+      "id": "P1-0274"
+    }
+  ]
+}
