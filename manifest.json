@@ -1,0 +1,16 @@
+{
+  "name": "谈吐 · 口才训练",
+  "short_name": "谈吐",
+  "description": "读一段、拆一段、说一段：用经典语料练谈吐，录音给真实声学反馈。",
+  "lang": "zh-CN",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#F8F6F0",
+  "theme_color": "#F8F6F0",
+  "icons": [
+    { "src": "assets/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "assets/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" }
+  ]
+}
